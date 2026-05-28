@@ -1,29 +1,75 @@
-# Prompt-Generation (提示词生成器)
+# Prompt-generation
 
-🚀 **一个基于数据驱动、高度模块化的桌面级 AI 提示词管理与生成工具。** 本项目采用 Python + PyQt6 开发，拥有极佳的响应式 UI 设计与暗色系现代风格。通过严格的**关注点分离 (SoC) 架构**，将核心解析引擎、UI 渲染与配置数据彻底解耦，帮助用户以最直观的方式管理、随机抽取并精细调节 AI 绘画提示词。
+🚀 **A data-driven, highly modular desktop application for managing and generating AI prompts.** Built with Python and PyQt6, this tool features a responsive UI and a modern dark mode design. It strictly follows the **Separation of Concerns (SoC)** architecture, completely decoupling the core parsing engine, UI rendering, and configuration data. It provides an intuitive way to manage, randomly sample, and fine-tune AI drawing prompts (for tools like Stable Diffusion, Midjourney, etc.).
 
-## ✨ 核心特性
+## ✨ Features
 
-* **📂 数据驱动的动态 UI**：无需修改代码，只需编辑 JSON 配置文件，系统即可自动解析并生成多层级的分类与标签树。
-* **🌊 响应式流式布局 (FlowLayout)**：标签按钮如水流般自动适配窗口宽度换行，告别死板的固定网格。
-* **⚙️ 丝滑的权重调节面板**：创新的“拼接胶囊”组件设计。点击标签右侧小齿轮，即可唤出无边框悬浮窗，支持键盘精准输入权重值。
-* **🎲 智能分组随机抽取**：支持模块级与全局一键随机。算法自带分组意识（Category-Aware），完美避开同类型标签（如“正午”与“深夜”）的逻辑互斥。
-* **🌐 双栏对照输出**：底部同时输出“带有权重的本地语言预览”与“纯净英文提示词”，方便核对与一键复制喂给大模型。
-* **🎨 现代暗色皮肤 (QSS)**：深度定制的深色科技风界面，久用不伤眼。
+* **📂 Data-Driven Dynamic UI**: No hardcoding required. Simply edit the JSON configuration files, and the system will automatically parse and generate a multi-level UI tree.
+* **🌊 Responsive Flow Layout**: Custom flow layout algorithm ensures tag buttons automatically wrap based on window width, adapting perfectly to any screen size.
+* **⚙️ Seamless Weight Adjustment**: Click the gear icon (`⚙`) next to any tag to bring up a frameless, floating weight control panel. Supports manual keyboard input for precise adjustments.
+* **🎲 Smart Randomized Sampling**: Supports both module-level and global randomization. The algorithm is category-aware, perfectly avoiding logical conflicts between mutually exclusive tags (e.g., sampling both "noon" and "midnight" simultaneously).
+* **🌐 Dual-Column Output**: The bottom panel displays both a "Native Language Preview" (with weights) and a "Clean English Prompt" side-by-side, making it easy to review and copy.
+* **🎨 Modern Dark Theme**: Deeply customized QSS dark cyber-theme, easy on the eyes for extended use.
 
+## 🛠️ Installation
 
-确保你的系统中已安装 Python 3.8+ 环境。
-本项目采用 CC BY-NC 4.0 (署名-非商业性使用 4.0 国际) 协议开源。
+Make sure you have Python 3.8 or higher installed on your system.
 
-允许：您可以自由地分享、修改、分发本项目的代码用于个人学习、研究或二次开发。
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/YOUR_USERNAME/Prompt-generation.git](https://github.com/YOUR_USERNAME/Prompt-generation.git)
+   cd Prompt-generation
 
-禁止：严禁将本项目及其衍生作品用于任何形式的商业盈利目的（包括但不限于：打包售卖、作为付费软件的组件、企业内部商用等），除非获得原作者的明确书面授权。
+2.Install dependencies:
+This project is lightweight and only requires PyQt6.
+  pip install PyQt6
+  
+3.Run the application:
+  python main.py
 
-要求：在分发或修改本项目时，必须保留原作者的版权声明与项目链接。
+🚀 How to Use
+Select Tags: Browse the categories and click on the tags you want to use. Selected tags will be highlighted in blue.
 
-免责声明 (Disclaimer)
-按“原样”提供：本项目作为开源工具，按“原样”提供，不带有任何明示或暗示的担保（包括但不限于对适销性、特定用途适用性和非侵权性的担保）。作者不对软件的绝对稳定性、数据安全性负责。
+Adjust Weights: Click the small ⚙ icon attached to a tag to open the weight adjustment popup. Enter a value (e.g., 1.2 or 0.8) or use the up/down arrows. The UI will format it automatically as (tag:1.2).
 
-内容合规性：本工具仅提供提示词的拼接与管理功能。用户使用本工具生成的任何提示词及后续由 AI 模型生成的图像、文本等内容，其版权、合法性与道德责任均由使用者本人承担。
+Randomize:
 
-法律遵从：请用户自觉遵守所在国家/地区的法律法规，严禁使用本工具拼接、生成或传播涉黄、暴力、政治敏感等违法违规内容。因不当使用本软件引发的一切法律纠纷，原作者概不负责。
+Click "🎲 随机抽取" (Random Pick) on a specific module to randomly sample tags just from that category.
+
+Click the large "🎲 全局一键随机" (Global Random) button at the bottom to sample tags across all currently expanded modules. (Collapsed modules are ignored).
+
+Generate: Click "🚀 生成提示词" (Generate Prompt). The bottom panel will instantly display your final prompt. Copy the text from the right column and paste it into your AI image generator.
+
+🏗️ Project Structure
+The project follows a strict modular design:
+Prompt-generation/
+├── main.py                # Application entry point and initialization
+├── ui/                    # UI rendering modules
+│   ├── main_window.py     # Main window and dual-column layout
+│   ├── flow_layout.py     # Custom responsive wrapping layout
+│   └── components.py      # Reusable widgets (WeightPopup, TagWidget, ModuleGroupWidget)
+├── core/                  # Core logic and parsers
+│   └── parser.py          # Dynamic data parser (JSON to memory tree)
+├── data/                  # User data directory
+│   └── example_landscape.json # Example prompt library
+└── assets/                # Static resources
+    └── styles.qss         # Global dark theme stylesheet
+
+⚖️ License
+This project is licensed under the CC BY-NC 4.0 (Creative Commons Attribution-NonCommercial 4.0 International) License.
+Please see the LICENSE file in the root directory for the full legal text.
+
+In plain English:
+
+✅ You are free to: Share, copy, and modify the code for personal, educational, or non-commercial purposes.
+
+❌ You may NOT: Use this project or its derivatives for any commercial purposes (e.g., selling it, bundling it with paid software, or using it for enterprise monetization).
+
+📝 You must: Give appropriate credit to the original author and provide a link to this repository.
+
+⚠️ Disclaimer
+"As Is" Basis: This open-source tool is provided "as is", without warranty of any kind, express or implied. The author is not responsible for absolute stability or data security.
+
+Content Responsibility: This tool only facilitates the concatenation and management of text prompts. The user assumes all copyright, legal, and ethical responsibilities for the prompts generated and the subsequent content (images/text) produced by AI models using these prompts.
+
+Legal Compliance: Users must comply with local laws and regulations. The author assumes no liability for any legal disputes arising from the misuse of this software.
