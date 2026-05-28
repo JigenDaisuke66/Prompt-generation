@@ -1,0 +1,198 @@
+/* 全局主窗口背景 */
+QMainWindow {
+    background-color: #1e1e24;
+}
+
+/* 滚动区域及内部容器 */
+QScrollArea {
+    border: none;
+    background-color: #1e1e24;
+}
+
+QWidget#scroll_content {
+    background-color: #1e1e24;
+}
+
+/* 模块组容器样式 */
+ModuleGroupWidget {
+    background-color: #26262f;
+    border: 1px solid #3a3a4a;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* 模块组标题 */
+QLabel {
+    color: #e3e3e6;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Segoe UI", "Microsoft YaHei";
+}
+
+/* 基础按钮样式（包括折叠按钮、随机按钮、生成按钮） */
+QPushButton {
+    background-color: #32323f;
+    color: #e3e3e6;
+    border: 1px solid #444454;
+    border-radius: 4px;
+    padding: 5px 12px;
+    font-size: 12px;
+    font-family: "Segoe UI", "Microsoft YaHei";
+}
+
+QPushButton:hover {
+    background-color: #3e3e4f;
+    border-color: #55556a;
+}
+
+QPushButton:pressed {
+    background-color: #282833;
+}
+
+/* 🎲 随机抽取 按钮特殊高亮 */
+QPushButton[text*="随机"] {
+    background-color: #2ba363;
+    color: #ffffff;
+    border: none;
+}
+
+QPushButton[text*="随机"]:hover {
+    background-color: #34c076;
+}
+
+
+
+/* 底部大按钮特殊样式 */
+QPushButton#generate_btn {
+    background-color: #3a86ff;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+QPushButton#generate_btn:hover {
+    background-color: #5496ff;
+}
+
+/* 文本输出框样式 */
+QTextEdit {
+    background-color: #15151a;
+    color: #00ff9d; /* 矩阵绿提示词输出 */
+    border: 1px solid #2d2d38;
+    border-radius: 6px;
+    padding: 8px;
+    font-family: "Consolas", "Courier New", monospace; /* 代码等宽字体 */
+    font-size: 13px;
+}
+
+/* 滚动条美化 */
+QScrollBar:vertical {
+    border: none;
+    background: #15151a;
+    width: 8px;
+    margin: 0px;
+}
+
+QScrollBar::handle:vertical {
+    background: #3e3e4f;
+    min-height: 20px;
+    border-radius: 4px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background: #55556a;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    height: 0px;
+}
+
+/* ================== 组合标签样式 ================== */
+
+/* 1. 主标签区域（左侧半胶囊） */
+QPushButton#tag_main_btn {
+    background-color: #2b2b36;
+    color: #b5b5bc;
+    border: 1px solid #3e3e4f;
+    border-right: none; /* 去除与右侧按钮的接缝 */
+    border-top-left-radius: 14px;
+    border-bottom-left-radius: 14px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding: 6px 8px 6px 14px;
+}
+QPushButton#tag_main_btn:hover {
+    background-color: #363645;
+    color: #e3e3e6;
+}
+QPushButton#tag_main_btn:checked {
+    background-color: #3a86ff;
+    color: #ffffff;
+    border-color: #64a0ff;
+    border-right: none;
+    font-weight: bold;
+}
+
+/* 2. 调节权重小按钮（右侧半胶囊） */
+QPushButton#tag_edit_btn {
+    background-color: #2b2b36;
+    color: #888899;
+    border: 1px solid #3e3e4f;
+    border-left: none; /* 去除与左侧按钮的接缝 */
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 14px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    padding: 6px 8px 6px 4px;
+}
+QPushButton#tag_edit_btn:hover {
+    background-color: #4a4a5a;
+    color: #ffffff;
+}
+
+/* 3. 悬浮权重调节面板 */
+QWidget#weight_popup_container {
+    background-color: #26262f;  
+    border: 1px solid #55556a;
+    border-radius: 8px;
+}
+QWidget#weight_popup_container QLabel {
+    color: #e3e3e6;
+    font-size: 12px;
+}
+/* 修复了上下按钮点击无效的 Bug */
+QDoubleSpinBox {
+    background-color: #15151a;
+    color: #ffffff;
+    border: 1px solid #3e3e4f;
+    border-radius: 4px;
+    min-height: 24px;       /* 给足整体高度 */
+    padding-left: 5px;      /* 只给左侧留边距，不挤压右侧的按钮 */
+}
+
+/* 强制明确指定上下按钮的宽度和点击区域 */
+QDoubleSpinBox::up-button, QDoubleSpinBox::down-button {
+    width: 24px;
+}
+
+QDoubleSpinBox::up-button:hover, QDoubleSpinBox::down-button:hover {
+    background-color: #3e3e4f;
+}
+
+QPushButton#global_random_btn {
+    background-color: #2ba363;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+QPushButton#global_random_btn:hover {
+    background-color: #34c076;
+}
+
+QPushButton#global_random_btn:pressed {
+    background-color: #21824e;
+}
