@@ -1,4 +1,6 @@
 # Prompt-generation
+The English version is not available yet and is currently being prepared. You may also replace it yourself.
+
 
 🚀 **A data-driven, highly modular desktop application for managing and generating AI prompts.**
 
