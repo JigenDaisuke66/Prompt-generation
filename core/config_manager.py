@@ -13,18 +13,24 @@ class ConfigManager:
 
     def _init(self):
         self.language_map = {}
-        self.current_lang = "cn"
-        self.load_i18n()
+        self.current_lang = "en"
+        self.assets_dir = "" # 记录资源文件夹绝对路径
 
-    def load_i18n(self, lang: str = "cn"):
-        filepath = f"assets/i18n_{lang}.json"
+    def set_assets_dir(self, path: str):
+        self.assets_dir = path
+
+    def load_language(self, lang: str = "en"):
+        self.current_lang = lang
+        filepath = os.path.join(self.assets_dir, f'i18n_{lang}.json')
         if os.path.exists(filepath):
             try:
                 with open(filepath, 'r', encoding='utf-8') as f:
                     self.language_map = json.load(f)
             except json.JSONDecodeError:
-                print(f"⚠️ 警告: 语言文件 {filepath} 格式错误或为空，已回退为默认设置。")
+                print(f"⚠️ 警告: 语言文件 {filepath} 格式错误。")
                 self.language_map = {}
+        else:
+            print(f"⚠️ 警告: 找不到语言文件 {filepath}")
 
     def get_text(self, key: str) -> str:
         return self.language_map.get(key, key)

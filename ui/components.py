@@ -4,6 +4,7 @@ from PyQt6.QtWidgets import (QPushButton, QWidget, QVBoxLayout, QHBoxLayout,
                              QLabel, QDoubleSpinBox)
 from PyQt6.QtCore import Qt, pyqtSignal
 from ui.flow_layout import FlowLayout
+from core.config_manager import ConfigManager
 
 class WeightPopup(QWidget):
     """悬浮的权重调节面板：支持手动输入和快捷重置"""
@@ -13,6 +14,8 @@ class WeightPopup(QWidget):
         super().__init__(parent)
         self.setWindowFlags(Qt.WindowType.Popup | Qt.WindowType.FramelessWindowHint)
         self.setAttribute(Qt.WidgetAttribute.WA_TranslucentBackground)
+
+        config = ConfigManager()
         
         # 内部主容器（用于应用 QSS 样式）
         self.container = QWidget(self)
@@ -26,7 +29,7 @@ class WeightPopup(QWidget):
         vbox.setContentsMargins(10, 10, 10, 10)
 
         # 标题与输入框
-        vbox.addWidget(QLabel("手动调整权重:"))
+        vbox.addWidget(QLabel(config.get_text("lbl_manual_weight")))
         self.spin_box = QDoubleSpinBox()
         self.spin_box.setRange(0.1, 5.0)
         self.spin_box.setSingleStep(0.05)
@@ -34,7 +37,7 @@ class WeightPopup(QWidget):
         vbox.addWidget(self.spin_box)
 
         # 重置按钮
-        reset_btn = QPushButton("恢复默认 (1.0)")
+        reset_btn = QPushButton(config.get_text("btn_reset_weight"))
         reset_btn.clicked.connect(lambda: self.spin_box.setValue(1.0))
         vbox.addWidget(reset_btn)
 
@@ -115,6 +118,7 @@ class ModuleGroupWidget(QWidget):
         super().__init__()
         self.layout = QVBoxLayout(self)
         self.layout.setContentsMargins(0, 0, 0, 10)
+        config = ConfigManager()
 
         # 头部控制栏
         self.header_layout = QHBoxLayout()
@@ -123,7 +127,8 @@ class ModuleGroupWidget(QWidget):
         self.toggle_btn.clicked.connect(self.toggle_content)
         
         self.title_label = QLabel(title)
-        self.random_btn = QPushButton("🎲 随机抽取")
+        self.random_btn = QPushButton(config.get_text("btn_random_group"))
+        self.random_btn.setObjectName("btn_random_group")
         self.random_btn.clicked.connect(self.random_select)
         
         self.header_layout.addWidget(self.toggle_btn)

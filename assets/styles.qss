@@ -196,3 +196,39 @@ QPushButton#global_random_btn:hover {
 QPushButton#global_random_btn:pressed {
     background-color: #21824e;
 }
+
+/* 5. 复制到剪贴板按钮 */
+QPushButton#copy_btn {
+    background-color: #6366f1; /* 靛蓝色，与生成和随机按钮区分开 */
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+QPushButton#copy_btn:hover {
+    background-color: #818cf8;
+}
+
+QPushButton#copy_btn:pressed {
+    background-color: #4f46e5;
+}
+
+/* 6. 底部状态栏美化 */
+QStatusBar {
+    background-color: #15151a;
+    color: #00ff9d; /* 采用矩阵绿作为提示色 */
+    border-top: 1px solid #2d2d38;
+    padding-left: 10px;
+    font-size: 12px;
+}
+
+QTextEdit#insp_text {
+    background-color: #1a1a20;
+    color: #eab308; /* 偏金黄色的提示文字 */
+    border: 1px dashed #55556a; /* 虚线边框强调其非正式性 */
+    border-radius: 6px;
+    padding: 6px;
+    font-family: "Consolas", "Courier New", monospace;
+    font-size: 13px;
+}

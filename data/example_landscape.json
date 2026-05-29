@@ -1,13 +1,13 @@
 {
-  "项目名称": "自然风景通用词库",
-  "模块组": [
+  "project_name": "自然风景通用词库",
+  "module_groups": [
     {
-      "模块名": "天气与光影",
-      "开启状态": true,
-      "子模块": [
+      "module_name": "天气与光影",
+      "is_open": true,
+      "sub_modules": [
         {
-          "子模块名": "时间段",
-          "标签列表": {
+          "sub_module_name": "时间段",
+          "tags": {
             "黎明": "dawn",
             "正午": "high noon",
             "黄昏": "golden hour",
@@ -15,8 +15,8 @@
           }
         },
         {
-          "子模块名": "气象效果",
-          "标签列表": {
+          "sub_module_name": "气象效果",
+          "tags": {
             "晴空万里": "clear sky",
             "多云": "cloudy",
             "倾盆大雨": "heavy rain",
@@ -27,12 +27,12 @@
       ]
     },
     {
-      "模块名": "地形与生态",
-      "开启状态": true,
-      "子模块": [
+      "module_name": "地形与生态",
+      "is_open": true,
+      "sub_modules": [
         {
-          "子模块名": "自然地貌",
-          "标签列表": {
+          "sub_module_name": "自然地貌",
+          "tags": {
             "连绵的山脉": "rolling mountains",
             "悬崖峭壁": "steep cliffs",
             "广袤的沙漠": "vast desert",
@@ -40,8 +40,8 @@
           }
         },
         {
-          "子模块名": "水体景观",
-          "标签列表": {
+          "sub_module_name": "水体景观",
+          "tags": {
             "清澈的湖泊": "crystal clear lake",
             "湍急的河流": "rushing river",
             "宁静的海滩": "peaceful beach",
