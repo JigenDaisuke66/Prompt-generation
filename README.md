@@ -1,5 +1,11 @@
 # Prompt-generation 🎨
 
+## Screenshot
+<img width="1184" height="815" alt="image" src="https://github.com/user-attachments/assets/58dd6a8d-432f-4e9c-9c2c-f794bc6775df" />
+<img width="1146" height="803" alt="image" src="https://github.com/user-attachments/assets/0c20b248-445a-4c0b-a27c-f322af01c143" />
+
+
+
 🚀 **A data-driven, highly modular desktop application for managing and generating AI prompts.**
 
 Built with Python and PyQt6, Prompt-generation provides an intuitive and efficient way to manage, randomize, customize, and generate prompts for AI image generation tools such as Stable Diffusion, Midjourney, FLUX, and more.
