@@ -1,0 +1,101 @@
+{
+  "project_name": "赛博朋克科幻都市词库(扩充版)",
+  "module_groups": [
+    {
+      "module_name": "城市元素",
+      "is_open": true,
+      "sub_modules": [
+        {
+          "sub_module_name": "建筑结构",
+          "tags": {
+            "高耸的摩天大楼": "towering skyscrapers",
+            "错综复杂的空中走廊": "intricate skybridges",
+            "拥挤的底层贫民窟": "crowded lower-level slums",
+            "巨型企业总部": "megacorp headquarters",
+            "密集的胶囊公寓": "dense capsule apartments",
+            "废弃的工业工厂": "abandoned industrial factories",
+            "地下黑市建筑": "underground black market structures",
+            "闪烁着霓虹灯的商业街": "neon-lit commercial streets",
+            "巨大的穹顶生态园": "massive biodome",
+            "垂直水培农场": "vertical hydroponic farms",
+            "钢铁与玻璃构成的金字塔": "steel and glass pyramids",
+            "悬浮的太空电梯基站": "hovering space elevator terminal",
+            "杂乱无章的集装箱房屋": "chaotic container housing",
+            "戒备森严的政府大楼": "heavily fortified government buildings",
+            "建立在废墟上的违建": "illegal structures built on ruins",
+            "巨大的信号发射塔": "giant signal transmission towers"
+          }
+        },
+        {
+          "sub_module_name": "交通与载具",
+          "tags": {
+            "穿梭的飞行汽车": "flying cars",
+            "悬浮单轨列车": "maglev monorail",
+            "重型运输飞船": "heavy transport ship",
+            "破旧的悬浮摩托": "rusty hoverbike",
+            "自动驾驶的出租车": "autonomous taxis",
+            "喷射着蓝色尾焰的警用巡逻艇": "police patrol boats with blue thruster flames",
+            "巨大的空中巴士": "massive aerobuses",
+            "履带式防暴装甲车": "tracked riot armored vehicles",
+            "运送货物的无人机群": "swarms of delivery drones",
+            "穿透云层的轨道飞行器": "orbital shuttles piercing the clouds",
+            "满载乘客的地下铁": "crowded cyber-subways",
+            "个人喷气背包": "personal jetpacks",
+            "冒着黑烟的改装卡车": "modified trucks belching black smoke",
+            "赛博格义体运输车": "cyborg transport vans",
+            "悬浮滑板": "hoverboards",
+            "停在天台的私人穿梭机": "private shuttles parked on rooftops"
+          }
+        }
+      ]
+    },
+    {
+      "module_name": "氛围与细节",
+      "is_open": true,
+      "sub_modules": [
+        {
+          "sub_module_name": "赛博光影",
+          "tags": {
+            "耀眼的霓虹灯牌": "blinding neon signs",
+            "巨型全息投影广告": "giant holographic advertisements",
+            "冷色调的街灯": "cold street lights",
+            "闪烁的电路火花": "flickering circuit sparks",
+            "穿透雾霾的探照灯束": "searchlight beams piercing through smog",
+            "闪烁的红色警告灯": "flashing red warning lights",
+            "屏幕发出的幽蓝光芒": "eerie blue glow from screens",
+            "飞船尾部的等离子喷流": "plasma jets from ship exhaust",
+            "雨水反射的多彩光斑": "colorful light spots reflected in rain",
+            "黑暗巷道中的荧光涂鸦": "fluorescent graffiti in dark alleys",
+            "虚拟现实接口的微光": "faint glow of VR interfaces",
+            "闪烁的故障艺术屏幕": "glitching art screens",
+            "刺眼的激光扫描仪": "blinding laser scanners",
+            "电子眼发出的红光": "red glare from cybernetic eyes",
+            "昏暗的地下室白炽灯": "dim incandescent lights in basements",
+            "全息交通指示牌": "holographic traffic signs"
+          }
+        },
+        {
+          "sub_module_name": "环境质感",
+          "tags": {
+            "积水的反光街道": "puddle-reflecting wet streets",
+            "浓密的工业雾霾": "thick industrial smog",
+            "缠绕的废弃电缆": "tangled abandoned cables",
+            "满是涂鸦的巷道": "graffiti-covered alleys",
+            "堆积如山的电子垃圾": "mountains of electronic waste",
+            "生锈的金属管道": "rusty metal pipes",
+            "随风飘动的塑料垃圾": "plastic trash blowing in the wind",
+            "持续不断的酸雨": "incessant acid rain",
+            "潮湿且长满青苔的混凝土": "damp and mossy concrete",
+            "刺鼻的化学气体": "pungent chemical fumes",
+            "杂音不断的收音机广播": "static-filled radio broadcasts",
+            "闪烁着雪花屏的老旧电视": "old TVs with static snow",
+            "满是油污的机械零件": "oil-stained mechanical parts",
+            "破裂漏水的水管": "cracked and leaking water pipes",
+            "充满科技感的六边形纹理": "high-tech hexagonal textures",
+            "散发着热气的通风口": "steaming ventilation shafts"
+          }
+        }
+      ]
+    }
+  ]
+}

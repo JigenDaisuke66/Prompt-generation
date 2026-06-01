@@ -1,10 +1,13 @@
 import random
+import os
 from collections import defaultdict
 from PyQt6.QtWidgets import (QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, 
-                             QScrollArea, QPushButton, QTextEdit, QLabel, QApplication)
+                             QScrollArea, QPushButton, QTextEdit, QLabel, QApplication,
+                             QFileDialog, QMessageBox)
 from PyQt6.QtGui import QAction, QActionGroup
 from ui.components import TagWidget, ModuleGroupWidget
 from core.config_manager import ConfigManager
+from core.parser import DataParser
 
 class MainWindow(QMainWindow):
     def __init__(self, data_tree):
@@ -33,6 +36,7 @@ class MainWindow(QMainWindow):
         self.file_menu = self.menu_bar.addMenu("")
         self.open_action = QAction("", self)
         self.open_action.setShortcut("Ctrl+O")
+        self.open_action.triggered.connect(self.load_new_dict)
         self.file_menu.addAction(self.open_action)
         self.file_menu.addSeparator()
         self.exit_action = QAction("", self)
@@ -309,3 +313,59 @@ class MainWindow(QMainWindow):
                     btn = TagWidget(display_name, tag_value, category=sub_name)
                     group_widget.add_tag(btn)
             self.scroll_layout.addWidget(group_widget)
+    
+    def _clear_modules(self):
+        """清空当前滚动区域内的所有旧模块和占位弹簧"""
+        # 倒序遍历并删除布局中的所有元素，防止正序删除导致的索引偏移
+        for i in reversed(range(self.scroll_layout.count())):
+            item = self.scroll_layout.itemAt(i)
+            widget = item.widget()
+            if widget is not None:
+                widget.deleteLater() # 安全销毁组件
+            else:
+                self.scroll_layout.removeItem(item)
+
+    def load_new_dict(self):
+        """弹出对话框选择新词库，并动态重绘界面"""
+        # 计算默认打开的 data 目录路径
+        default_dir = self.config.assets_dir.replace("assets", "data")
+        if not os.path.exists(default_dir):
+            default_dir = ""
+
+        # 弹出文件选择对话框
+        file_path, _ = QFileDialog.getOpenFileName(
+            self,
+            self.config.get_text("menu_load"),
+            default_dir,
+            "JSON Files (*.json);;All Files (*)"
+        )
+
+        if file_path: # 如果用户选择了文件（没有点取消）
+            try:
+                # 1. 解析新数据
+                parser = DataParser()
+                new_data_tree = parser.parse(file_path)
+                
+                # 2. 更新内存数据和窗口标题
+                self.data_tree = new_data_tree
+                self.setWindowTitle(self.data_tree.get("project_name", "Prompt-generation"))
+                
+                # 3. 清空旧 UI，重新渲染新 UI
+                self._clear_modules()
+                self._render_modules(self.data_tree.get("module_groups", []))
+                self.scroll_layout.addStretch() # 重新在底部垫上弹簧，把模块顶上去
+                
+                # 4. 重置底部的各种状态框
+                self.output_text_local.clear()
+                self.output_text_en.clear()
+                self.insp_text.clear()
+                self.apply_insp_btn.setVisible(False)
+                self.last_inspired_widgets.clear()
+                
+                # 5. 在状态栏提示成功
+                filename = os.path.basename(file_path)
+                self.statusBar().showMessage(f"✅ Loaded: {filename}", 4000)
+                
+            except Exception as e:
+                # 如果 JSON 格式不对或者解析出错，弹出错误框，界面保持原样
+                QMessageBox.critical(self, "Error", f"Failed to load library file:\n{str(e)}")

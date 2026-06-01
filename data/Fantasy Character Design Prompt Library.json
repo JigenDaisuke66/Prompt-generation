@@ -1,0 +1,209 @@
+{
+  "project_name": "奇幻角色设计通用词库(终极扩充版)",
+  "module_groups": [
+    {
+      "module_name": "职业与身份",
+      "is_open": true,
+      "sub_modules": [
+        {
+          "sub_module_name": "奇幻种族",
+          "tags": {
+            "高等精灵": "high elf",
+            "强壮的兽人": "muscular orc",
+            "矮人工匠": "dwarven blacksmith",
+            "神秘的龙裔": "mysterious dragonborn",
+            "狡猾的地精": "cunning goblin",
+            "灵动的半身人": "agile halfling",
+            "苏醒的亡灵": "awakened undead",
+            "深海的人鱼": "deep sea merfolk",
+            "带着契约的提夫林(魔人)": "tiefling",
+            "半人马战士": "centaur warrior",
+            "森林妖精": "forest fairy",
+            "狂暴的狼人": "lycanthrope",
+            "嗜血的吸血鬼": "vampire",
+            "残暴的豺狼人": "gnoll",
+            "巨大的牛头人": "minotaur",
+            "迷人的塞壬海妖": "siren",
+            "树精/林中仙女": "dryad",
+            "变形者/幻形怪": "doppelganger",
+            "独眼巨人": "cyclops",
+            "石像鬼": "gargoyle"
+          }
+        },
+        {
+          "sub_module_name": "经典职业",
+          "tags": {
+            "元素魔法师": "elemental sorcerer",
+            "重甲圣骑士": "heavy-armored paladin",
+            "森林游侠": "forest ranger",
+            "隐秘刺客": "stealthy assassin",
+            "死灵法师": "necromancer",
+            "吟游诗人": "bard with a lute",
+            "狂战士": "berserker",
+            "神圣牧师": "holy cleric",
+            "自然德鲁伊": "nature druid",
+            "疯狂炼金术士": "crazy alchemist",
+            "召唤师": "summoner",
+            "苦行武僧": "ascetic monk",
+            "魔剑士": "spellblade",
+            "野兽控制者/驯兽师": "beastmaster",
+            "幻术师": "illusionist",
+            "时间法师": "chronomancer",
+            "异端审判官": "inquisitor",
+            "巫医": "witch doctor",
+            "赏金猎人": "bounty hunter",
+            "机械工匠/机工士": "artificer"
+          }
+        }
+      ]
+    },
+    {
+      "module_name": "外观与装备",
+      "is_open": true,
+      "sub_modules": [
+        {
+          "sub_module_name": "服饰装扮",
+          "tags": {
+            "飘逸的丝绸长袍": "flowing silk robes",
+            "做旧的皮革风衣": "worn leather trench coat",
+            "华丽的贵族铠甲": "ornate noble armor",
+            "破烂的亚麻斗篷": "tattered linen cloak",
+            "带有兜帽的披风": "hooded mantle",
+            "镶钉皮甲": "studded leather armor",
+            "重型板甲护手": "heavy plate gauntlets",
+            "神秘的仪式面具": "mysterious ceremonial mask",
+            "秘银锁子甲": "mithril chainmail",
+            "镶嵌宝石的王冠": "jeweled crown",
+            "束腰外衣": "tunic",
+            "哥特式蕾丝裙": "Gothic lace dress",
+            "瘟疫医生鸟嘴面具": "plague doctor mask",
+            "带有羽毛的头饰": "feathered headdress",
+            "武士藤甲": "samurai armor",
+            "镶边毛皮大衣": "fur-lined mantle",
+            "紧身马甲/束腰": "tight corset",
+            "带刺的铁靴": "spiked iron boots"
+          }
+        },
+        {
+          "sub_module_name": "武器与配件",
+          "tags": {
+            "发光的水晶法杖": "glowing crystal staff",
+            "沾满血迹的巨剑": "blood-stained greatsword",
+            "附魔的符文盾牌": "enchanted runic shield",
+            "精巧的机械连弩": "intricate mechanical crossbow",
+            "淬毒的双匕首": "poisoned dual daggers",
+            "悬浮的魔法书": "floating spellbook",
+            "倒刺长鞭": "barbed whip",
+            "沉重的破甲戟": "heavy halberd",
+            "挂在腰间的魔药瓶": "potion vials on belt",
+            "发光的魔法护身符": "glowing magic amulet",
+            "装满魔法箭的箭袋": "quiver with glowing arrows",
+            "灵魂提灯": "soul lantern",
+            "弯曲的阿拉伯弯刀": "curved scimitar",
+            "带刺的流星锤": "spiked mace",
+            "锋利的飞斧": "throwing axes",
+            "精美的魔法棒": "elegant magic wand",
+            "黄铜指虎": "brass knuckles",
+            "占卜塔罗牌": "tarot cards",
+            "古老的魔法卷轴": "ancient spell scrolls",
+            "散发魔力的戒指": "enchanted glowing ring"
+          }
+        }
+      ]
+    },
+    {
+      "module_name": "面貌与身体特征",
+      "is_open": true,
+      "sub_modules": [
+        {
+          "sub_module_name": "面部细节",
+          "tags": {
+            "散发幽光的眼睛": "glowing eyes",
+            "横跨脸颊的伤疤": "scar across the cheek",
+            "尖锐的精灵耳": "pointy elf ears",
+            "额头上的恶魔角": "demonic horns on forehead",
+            "吸血鬼獠牙": "vampire fangs",
+            "异色瞳": "heterochromia eyes",
+            "蒙着双眼": "blindfolded",
+            "布满风霜的脸庞": "weathered face",
+            "部落图腾油彩": "tribal war paint",
+            "额头上的第三只眼": "third eye on forehead",
+            "魔法机械义眼": "cybernetic magic eye",
+            "可怕的烧伤痕迹": "horrific burn marks",
+            "脸颊上的龙鳞斑块": "dragon scale patches on cheeks",
+            "蛇一样的竖瞳": "snake-like slit pupils",
+            "闪闪发光的金牙": "shining golden teeth",
+            "完全漆黑的眼球": "completely pitch-black eyes",
+            "脸部的荧光符文纹身": "glowing runic tattoos on face"
+          }
+        },
+        {
+          "sub_module_name": "身体异变",
+          "tags": {
+            "巨大的恶魔翅膀": "huge demonic wings",
+            "覆盖鳞片的皮肤": "scaly skin",
+            "魔法机械义肢": "magical prosthetic limb",
+            "神圣的光环": "holy halo",
+            "毛茸茸的尾巴": "fluffy tail",
+            "身上缠绕着黑雾": "surrounded by black mist",
+            "燃烧的头发": "flaming hair",
+            "半透明的幽灵躯体": "translucent ghostly body",
+            "多出来的两条手臂": "extra two arms",
+            "背后的触手": "tentacles from the back",
+            "皮肤上长出的水晶": "crystal growths on skin",
+            "缠绕全身的荆棘藤蔓": "covered in thorny vines",
+            "金属质感的皮肤": "metallic skin",
+            "脖子上的鱼鳃": "gills on the neck",
+            "环绕身体的悬浮法阵": "floating runic circles around the body"
+          }
+        }
+      ]
+    },
+    {
+      "module_name": "动态与姿势",
+      "is_open": true,
+      "sub_modules": [
+        {
+          "sub_module_name": "战斗姿态",
+          "tags": {
+            "正在吟唱咒语": "chanting a spell",
+            "拔剑出鞘": "drawing sword from scabbard",
+            "拉弓搭箭": "aiming a bow",
+            "举起盾牌格挡": "raising shield to block",
+            "从高空跃下突袭": "leaping from above for an ambush",
+            "挥舞法杖释放火球": "swinging staff to cast a fireball",
+            "双持武器交叉攻击": "dual wielding crossing strike",
+            "灵巧地躲避攻击": "agilely dodging an attack",
+            "施展旋风斩": "performing a spinning slash",
+            "用剑招架弹反": "parrying a blow with sword",
+            "单膝跪地释放治愈魔法": "kneeling to cast healing magic",
+            "用力投掷魔药瓶": "throwing a potion vial",
+            "指挥召唤兽攻击": "commanding a summoned beast",
+            "引导巨大的魔法光束": "channeling a massive magical beam",
+            "从背后进行潜行暗杀": "performing a stealth takedown from behind"
+          }
+        },
+        {
+          "sub_module_name": "日常与静止",
+          "tags": {
+            "端坐在王座上": "sitting on a throne",
+            "悬浮在半空冥想": "levitating in mid-air meditating",
+            "翻阅古老的魔法书": "reading an ancient grimoire",
+            "靠在酒馆角落的墙上": "leaning against a wall in a tavern corner",
+            "抚摸着宠物魔物": "petting a magical familiar",
+            "正在擦拭武器": "cleaning a weapon",
+            "抽着长杆烟斗": "smoking a long pipe",
+            "凝视着水晶球": "gazing into a crystal ball",
+            "洗着一副纸牌": "shuffling a deck of cards",
+            "在营火旁烤火取暖": "warming hands by the campfire",
+            "高高举起提灯照明": "holding a lantern up high",
+            "优雅地鞠躬行礼": "bowing gracefully",
+            "盘腿坐在草地上": "sitting cross-legged on the grass",
+            "细心打磨抛光盔甲": "polishing armor",
+            "用羽毛笔在羊皮纸上书写": "writing on parchment with a quill"
+          }
+        }
+      ]
+    }
+  ]
+}

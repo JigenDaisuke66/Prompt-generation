@@ -1,5 +1,5 @@
 {
-  "project_name": "自然风景通用词库",
+  "project_name": "自然风景通用词库(扩充版)",
   "module_groups": [
     {
       "module_name": "天气与光影",
@@ -8,10 +8,21 @@
         {
           "sub_module_name": "时间段",
           "tags": {
+            "破晓": "daybreak",
             "黎明": "dawn",
+            "清晨": "early morning",
+            "日出": "sunrise",
+            "上午": "mid-morning",
             "正午": "high noon",
+            "慵懒的下午": "lazy afternoon",
             "黄昏": "golden hour",
-            "深夜": "midnight"
+            "日落": "sunset",
+            "傍晚": "dusk",
+            "夜幕降临": "nightfall",
+            "蓝调时刻": "blue hour",
+            "繁星点点的夜晚": "starry night",
+            "深夜": "midnight",
+            "极昼": "midnight sun"
           }
         },
         {
@@ -21,7 +32,18 @@
             "多云": "cloudy",
             "倾盆大雨": "heavy rain",
             "晨雾缭绕": "morning fog",
-            "极光": "aurora borealis"
+            "极光": "aurora borealis",
+            "狂风暴雨": "thunderstorm",
+            "蒙蒙细雨": "drizzle",
+            "漫天飞雪": "heavy snow",
+            "暴风雪": "blizzard",
+            "破坏性的龙卷风": "destructive tornado",
+            "绚丽的彩虹": "beautiful rainbow",
+            "闪电交加": "lightning strikes",
+            "耶稣光/丁达尔效应": "crepuscular rays",
+            "漫天黄沙的沙尘暴": "sandstorm",
+            "冰雹": "hailstorm",
+            "清晨的霜冻": "morning frost"
           }
         }
       ]
@@ -36,7 +58,18 @@
             "连绵的山脉": "rolling mountains",
             "悬崖峭壁": "steep cliffs",
             "广袤的沙漠": "vast desert",
-            "郁郁葱葱的森林": "lush forest"
+            "郁郁葱葱的森林": "lush forest",
+            "幽深的峡谷": "deep canyon",
+            "喷发的活火山": "erupting active volcano",
+            "壮丽的冰川": "magnificent glacier",
+            "奇特的喀斯特地貌": "karst landscape",
+            "无垠的草原": "endless prairie",
+            "寒冷的极地苔原": "cold polar tundra",
+            "巨大的盆地": "massive basin",
+            "神秘的钟乳石洞穴": "mysterious stalactite cave",
+            "荒无人烟的戈壁": "desolate gobi",
+            "起伏的丘陵地带": "rolling hills",
+            "雪白的天空之镜/盐湖": "salt flat"
           }
         },
         {
@@ -45,7 +78,18 @@
             "清澈的湖泊": "crystal clear lake",
             "湍急的河流": "rushing river",
             "宁静的海滩": "peaceful beach",
-            "壮丽的瀑布": "magnificent waterfall"
+            "壮丽的瀑布": "magnificent waterfall",
+            "蜿蜒的林间小溪": "winding forest stream",
+            "波涛汹涌的大海": "rough sea",
+            "深邃幽暗的海洋": "deep dark ocean",
+            "雾气弥漫的沼泽湿地": "foggy swampy wetland",
+            "色彩斑斓的珊瑚礁": "colorful coral reef",
+            "冰封的湖面": "frozen lake",
+            "隐秘的地下暗河": "hidden underground river",
+            "喷涌的间歇泉": "erupting geyser",
+            "停泊船只的宁静海湾": "tranquil bay",
+            "沙漠中的绿洲水潭": "desert oasis pool",
+            "退潮后的滩涂": "tidal flat"
           }
         }
       ]

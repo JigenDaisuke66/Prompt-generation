@@ -1,0 +1,101 @@
+{
+  "project_name": "建筑与室内设计词库(扩充版)",
+  "module_groups": [
+    {
+      "module_name": "风格与空间",
+      "is_open": true,
+      "sub_modules": [
+        {
+          "sub_module_name": "室内风格",
+          "tags": {
+            "现代极简主义": "modern minimalism",
+            "粗犷的工业风": "rugged industrial style",
+            "温馨的斯堪的纳维亚风": "cozy Scandinavian style",
+            "奢华的复古巴洛克": "luxurious vintage Baroque",
+            "日式侘寂风": "Japanese wabi-sabi",
+            "法式浪漫乡村风": "French country style",
+            "地中海风情": "Mediterranean style",
+            "波西米亚折衷主义": "Bohemian eclectic",
+            "中世纪现代风": "mid-century modern",
+            "高科技未来风": "high-tech futuristic style",
+            "传统中式禅意": "traditional Chinese Zen",
+            "新古典主义": "neo-classical style",
+            "装饰艺术风格": "Art Deco style",
+            "美式复古风": "American vintage style",
+            "摩洛哥异域风": "Moroccan exotic style",
+            "热带雨林风": "tropical jungle style"
+          }
+        },
+        {
+          "sub_module_name": "房间布局",
+          "tags": {
+            "开放式中岛厨房": "open-concept island kitchen",
+            "带落地窗的客厅": "living room with floor-to-ceiling windows",
+            "充满绿植的阳光房": "plant-filled sunroom",
+            "幽暗的地下酒窖": "dimly lit underground wine cellar",
+            "带步入式衣帽间的主卧": "master bedroom with walk-in closet",
+            "双层挑高阁楼": "double-height loft",
+            "全景天窗浴室": "bathroom with panoramic skylight",
+            "带壁炉的舒适阅读角": "cozy reading nook with a fireplace",
+            "环绕式观景露台": "wraparound observation terrace",
+            "下沉式休闲区": "sunken lounge area",
+            "干湿分离卫生间": "dry and wet separated bathroom",
+            "隐藏式收纳墙": "hidden storage wall",
+            "错层式阶梯设计": "split-level staircase design",
+            "无边框玻璃泳池": "infinity glass pool",
+            "静谧的日式榻榻米茶室": "quiet Japanese tatami tea room",
+            "带吧台的家庭影院": "home theater with a bar"
+          }
+        }
+      ]
+    },
+    {
+      "module_name": "材质与软装",
+      "is_open": true,
+      "sub_modules": [
+        {
+          "sub_module_name": "硬装材质",
+          "tags": {
+            "抛光大理石地板": "polished marble flooring",
+            "粗糙的裸露砖墙": "rough exposed brick wall",
+            "温暖的胡桃木饰面": "warm walnut wood panelling",
+            "冰冷的清水模墙面": "cold fair-faced concrete wall",
+            "水磨石地面": "terrazzo flooring",
+            "复古花砖": "vintage patterned tiles",
+            "拉丝黄铜金属件": "brushed brass fixtures",
+            "带有天然纹理的原木": "natural grain solid wood",
+            "半透明的磨砂玻璃": "translucent frosted glass",
+            "吸音毛毡护墙板": "acoustic felt wall panels",
+            "粗纹理微水泥": "coarse microcement",
+            "镜面不锈钢天花板": "mirrored stainless steel ceiling",
+            "几何拼花木地板": "geometric parquet flooring",
+            "彩色玻璃砖墙": "stained glass block wall",
+            "天然板岩文化石": "natural slate culture stone",
+            "环保竹纤维板": "eco-friendly bamboo fiberboard"
+          }
+        },
+        {
+          "sub_module_name": "家具与陈设",
+          "tags": {
+            "柔软的天鹅绒沙发": "soft velvet sofa",
+            "黄铜几何吊灯": "brass geometric chandelier",
+            "复古的波斯地毯": "vintage Persian rug",
+            "极简的无框壁画": "minimalist frameless wall art",
+            "藤编单人休闲椅": "rattan lounge chair",
+            "实木长条餐桌": "solid wood dining table",
+            "悬浮式大理石洗手台": "floating marble vanity",
+            "带有流苏的波西米亚抱枕": "Bohemian fringed throw pillows",
+            "不规则形状的全身镜": "irregular shaped full-length mirror",
+            "哑光黑陶瓷花瓶": "matte black ceramic vase",
+            "智能感应环境氛围灯": "smart ambient mood lighting",
+            "厚实的粗针织毛毯": "chunky knit blanket",
+            "做旧的黄牛皮单人沙发": "distressed leather armchair",
+            "巨大的室内鹤望兰盆栽": "large indoor Bird of Paradise plant",
+            "多功能折叠隐形床": "multifunctional folding Murphy bed",
+            "复古留声机": "vintage phonograph"
+          }
+        }
+      ]
+    }
+  ]
+}
