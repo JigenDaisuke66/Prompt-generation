@@ -1,98 +1,185 @@
 {
-  "project_name": "赛博朋克科幻都市词库(扩充版)",
+  "project_name": "Cyberpunk Sci-Fi City Lexicon (All-Ages Expanded Edition)",
   "module_groups": [
     {
-      "module_name": "城市元素",
+      "module_name": "City Elements",
       "is_open": true,
       "sub_modules": [
         {
-          "sub_module_name": "建筑结构",
+          "sub_module_name": "Architectural Structures",
           "tags": {
-            "高耸的摩天大楼": "towering skyscrapers",
-            "错综复杂的空中走廊": "intricate skybridges",
-            "拥挤的底层贫民窟": "crowded lower-level slums",
-            "巨型企业总部": "megacorp headquarters",
-            "密集的胶囊公寓": "dense capsule apartments",
-            "废弃的工业工厂": "abandoned industrial factories",
-            "地下黑市建筑": "underground black market structures",
-            "闪烁着霓虹灯的商业街": "neon-lit commercial streets",
-            "巨大的穹顶生态园": "massive biodome",
-            "垂直水培农场": "vertical hydroponic farms",
-            "钢铁与玻璃构成的金字塔": "steel and glass pyramids",
-            "悬浮的太空电梯基站": "hovering space elevator terminal",
-            "杂乱无章的集装箱房屋": "chaotic container housing",
-            "戒备森严的政府大楼": "heavily fortified government buildings",
-            "建立在废墟上的违建": "illegal structures built on ruins",
-            "巨大的信号发射塔": "giant signal transmission towers"
+            "towering skyscrapers": "towering skyscrapers",
+            "intricate skybridges": "intricate skybridges",
+            "crowded lower-level sectors": "crowded lower-level sectors",
+            "megacorp headquarters": "megacorp headquarters",
+            "dense capsule apartments": "dense capsule apartments",
+            "abandoned industrial factories": "abandoned industrial factories",
+            "underground trading hubs": "underground trading hubs",
+            "neon-lit commercial streets": "neon-lit commercial streets",
+            "massive biodome": "massive biodome",
+            "vertical hydroponic farms": "vertical hydroponic farms",
+            "steel and glass pyramids": "steel and glass pyramids",
+            "hovering space elevator terminal": "hovering space elevator terminal",
+            "chaotic container housing": "chaotic container housing",
+            "secured government buildings": "secured government buildings",
+            "makeshift structures built on ruins": "makeshift structures built on ruins",
+            "giant signal transmission towers": "giant signal transmission towers"
           }
         },
         {
-          "sub_module_name": "交通与载具",
+          "sub_module_name": "Transportation and Vehicles",
           "tags": {
-            "穿梭的飞行汽车": "flying cars",
-            "悬浮单轨列车": "maglev monorail",
-            "重型运输飞船": "heavy transport ship",
-            "破旧的悬浮摩托": "rusty hoverbike",
-            "自动驾驶的出租车": "autonomous taxis",
-            "喷射着蓝色尾焰的警用巡逻艇": "police patrol boats with blue thruster flames",
-            "巨大的空中巴士": "massive aerobuses",
-            "履带式防暴装甲车": "tracked riot armored vehicles",
-            "运送货物的无人机群": "swarms of delivery drones",
-            "穿透云层的轨道飞行器": "orbital shuttles piercing the clouds",
-            "满载乘客的地下铁": "crowded cyber-subways",
-            "个人喷气背包": "personal jetpacks",
-            "冒着黑烟的改装卡车": "modified trucks belching black smoke",
-            "赛博格义体运输车": "cyborg transport vans",
-            "悬浮滑板": "hoverboards",
-            "停在天台的私人穿梭机": "private shuttles parked on rooftops"
+            "flying cars": "flying cars",
+            "maglev monorail": "maglev monorail",
+            "heavy transport ship": "heavy transport ship",
+            "rusty hoverbike": "rusty hoverbike",
+            "autonomous taxis": "autonomous taxis",
+            "security patrol boats with blue thruster flames": "security patrol boats with blue thruster flames",
+            "massive aerobuses": "massive aerobuses",
+            "heavy duty construction vehicles": "heavy duty construction vehicles",
+            "swarms of delivery drones": "swarms of delivery drones",
+            "orbital shuttles piercing the clouds": "orbital shuttles piercing the clouds",
+            "crowded cyber-subways": "crowded cyber-subways",
+            "personal jetpacks": "personal jetpacks",
+            "modified trucks belching dark smoke": "modified trucks belching dark smoke",
+            "robotic transport vans": "robotic transport vans",
+            "hoverboards": "hoverboards",
+            "private shuttles parked on rooftops": "private shuttles parked on rooftops"
           }
         }
       ]
     },
     {
-      "module_name": "氛围与细节",
+      "module_name": "Atmosphere and Details",
       "is_open": true,
       "sub_modules": [
         {
-          "sub_module_name": "赛博光影",
+          "sub_module_name": "Cyber Lighting and Shadows",
           "tags": {
-            "耀眼的霓虹灯牌": "blinding neon signs",
-            "巨型全息投影广告": "giant holographic advertisements",
-            "冷色调的街灯": "cold street lights",
-            "闪烁的电路火花": "flickering circuit sparks",
-            "穿透雾霾的探照灯束": "searchlight beams piercing through smog",
-            "闪烁的红色警告灯": "flashing red warning lights",
-            "屏幕发出的幽蓝光芒": "eerie blue glow from screens",
-            "飞船尾部的等离子喷流": "plasma jets from ship exhaust",
-            "雨水反射的多彩光斑": "colorful light spots reflected in rain",
-            "黑暗巷道中的荧光涂鸦": "fluorescent graffiti in dark alleys",
-            "虚拟现实接口的微光": "faint glow of VR interfaces",
-            "闪烁的故障艺术屏幕": "glitching art screens",
-            "刺眼的激光扫描仪": "blinding laser scanners",
-            "电子眼发出的红光": "red glare from cybernetic eyes",
-            "昏暗的地下室白炽灯": "dim incandescent lights in basements",
-            "全息交通指示牌": "holographic traffic signs"
+            "blinding neon signs": "blinding neon signs",
+            "giant holographic advertisements": "giant holographic advertisements",
+            "cold street lights": "cold street lights",
+            "flickering circuit sparks": "flickering circuit sparks",
+            "searchlight beams piercing through smog": "searchlight beams piercing through smog",
+            "flashing warning lights": "flashing warning lights",
+            "eerie blue glow from screens": "eerie blue glow from screens",
+            "plasma jets from ship exhaust": "plasma jets from ship exhaust",
+            "colorful light spots reflected in rain": "colorful light spots reflected in rain",
+            "fluorescent street art in dark alleys": "fluorescent street art in dark alleys",
+            "faint glow of VR interfaces": "faint glow of VR interfaces",
+            "glitching art screens": "glitching art screens",
+            "bright laser scanners": "bright laser scanners",
+            "gentle glow from cybernetic optics": "gentle glow from cybernetic optics",
+            "dim incandescent lights in basements": "dim incandescent lights in basements",
+            "holographic traffic signs": "holographic traffic signs"
           }
         },
         {
-          "sub_module_name": "环境质感",
+          "sub_module_name": "Environmental Textures",
           "tags": {
-            "积水的反光街道": "puddle-reflecting wet streets",
-            "浓密的工业雾霾": "thick industrial smog",
-            "缠绕的废弃电缆": "tangled abandoned cables",
-            "满是涂鸦的巷道": "graffiti-covered alleys",
-            "堆积如山的电子垃圾": "mountains of electronic waste",
-            "生锈的金属管道": "rusty metal pipes",
-            "随风飘动的塑料垃圾": "plastic trash blowing in the wind",
-            "持续不断的酸雨": "incessant acid rain",
-            "潮湿且长满青苔的混凝土": "damp and mossy concrete",
-            "刺鼻的化学气体": "pungent chemical fumes",
-            "杂音不断的收音机广播": "static-filled radio broadcasts",
-            "闪烁着雪花屏的老旧电视": "old TVs with static snow",
-            "满是油污的机械零件": "oil-stained mechanical parts",
-            "破裂漏水的水管": "cracked and leaking water pipes",
-            "充满科技感的六边形纹理": "high-tech hexagonal textures",
-            "散发着热气的通风口": "steaming ventilation shafts"
+            "puddle-reflecting wet streets": "puddle-reflecting wet streets",
+            "thick industrial smog": "thick industrial smog",
+            "tangled abandoned cables": "tangled abandoned cables",
+            "art-covered alleys": "art-covered alleys",
+            "mountains of electronic waste": "mountains of electronic waste",
+            "rusty metal pipes": "rusty metal pipes",
+            "plastic trash blowing in the wind": "plastic trash blowing in the wind",
+            "incessant rain": "incessant rain",
+            "damp and mossy concrete": "damp and mossy concrete",
+            "pungent chemical exhausts": "pungent chemical exhausts",
+            "static-filled radio broadcasts": "static-filled radio broadcasts",
+            "old TVs with static snow": "old TVs with static snow",
+            "oil-stained mechanical parts": "oil-stained mechanical parts",
+            "cracked and leaking water pipes": "cracked and leaking water pipes",
+            "high-tech hexagonal textures": "high-tech hexagonal textures",
+            "steaming ventilation shafts": "steaming ventilation shafts"
+          }
+        }
+      ]
+    },
+    {
+      "module_name": "Characters and Citizens",
+      "is_open": true,
+      "sub_modules": [
+        {
+          "sub_module_name": "Archetypes and Roles",
+          "tags": {
+            "freelance netrunners": "freelance netrunners",
+            "ambitious corporate executives": "ambitious corporate executives",
+            "augmented street performers": "augmented street performers",
+            "underground cyber-mechanics": "underground cyber-mechanics",
+            "robotic security guards": "robotic security guards",
+            "data retrieval specialists": "data retrieval specialists",
+            "tech-savvy explorers": "tech-savvy explorers",
+            "virtual reality enthusiasts": "virtual reality enthusiasts"
+          }
+        },
+        {
+          "sub_module_name": "Groups and Societies",
+          "tags": {
+            "omnipotent mega-corporations": "omnipotent mega-corporations",
+            "street racing crews": "street racing crews",
+            "nature preservation societies": "nature preservation societies",
+            "underground hacker collectives": "underground hacker collectives",
+            "corporate security forces": "corporate security forces",
+            "secretive merchant guilds": "secretive merchant guilds"
+          }
+        }
+      ]
+    },
+    {
+      "module_name": "Cybernetics and Technology",
+      "is_open": true,
+      "sub_modules": [
+        {
+          "sub_module_name": "Body Modifications",
+          "tags": {
+            "chrome-plated cybernetic arms": "chrome-plated cybernetic arms",
+            "glowing neural link ports": "glowing neural link ports",
+            "synthetic optical implants": "synthetic optical implants",
+            "augmented mechanical spines": "augmented mechanical spines",
+            "vocal cord synthesizers": "vocal cord synthesizers",
+            "retractable multi-tools": "retractable multi-tools",
+            "built-in musical instruments": "built-in musical instruments"
+          }
+        },
+        {
+          "sub_module_name": "Software and Hardware",
+          "tags": {
+            "portable cyberdecks": "portable cyberdecks",
+            "enterprise-grade firewall programs": "enterprise-grade firewall programs",
+            "curious artificial intelligence": "curious artificial intelligence",
+            "holographic memory chips": "holographic memory chips",
+            "rare virtual reality simulations": "rare virtual reality simulations",
+            "quantum processing nodes": "quantum processing nodes"
+          }
+        }
+      ]
+    },
+    {
+      "module_name": "Daily Life and Entertainment",
+      "is_open": true,
+      "sub_modules": [
+        {
+          "sub_module_name": "Leisure Activities",
+          "tags": {
+            "holographic arcade games": "holographic arcade games",
+            "zero-gravity sports arenas": "zero-gravity sports arenas",
+            "cyber-pet parks": "cyber-pet parks",
+            "synth-music concerts": "synth-music concerts",
+            "virtual reality cafes": "virtual reality cafes",
+            "robotic companion shows": "robotic companion shows"
+          }
+        },
+        {
+          "sub_module_name": "Cyberpunk Fashion",
+          "tags": {
+            "glowing LED jackets": "glowing LED jackets",
+            "holographic visors": "holographic visors",
+            "reactive smart fabrics": "reactive smart fabrics",
+            "metallic platform boots": "metallic platform boots",
+            "neon-tinted hair dyes": "neon-tinted hair dyes",
+            "digital display sneakers": "digital display sneakers"
           }
         }
       ]
