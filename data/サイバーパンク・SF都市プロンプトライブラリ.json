@@ -1,0 +1,204 @@
+{
+  "project_name": "サイバーパンクSF都市語彙集（全年齢対応拡張版）",
+  "module_groups": [
+    {
+      "module_name": "都市要素",
+      "is_open": true,
+      "sub_modules": [
+        {
+          "sub_module_name": "建築構造",
+          "tags": {
+            "そびえ立つ超高層ビル": "towering skyscrapers",
+            "入り組んだ空中歩道": "intricate skybridges",
+            "混雑する低層エリア": "crowded lower-level sectors",
+            "巨大企業の本社ビル": "megacorp headquarters",
+            "高密度カプセルマンション": "dense capsule apartments",
+            "廃墟化した工業工場": "abandoned industrial factories",
+            "地下の交易拠点": "underground trading hubs",
+            "ネオン輝く商店街": "neon-lit commercial streets",
+            "巨大なバイオドーム": "massive biodome",
+            "垂直水耕栽培農場": "vertical hydroponic farms",
+            "鋼鉄とガラスのピラミッド": "steel and glass pyramids",
+            "浮遊する宇宙エレベーターターミナル": "hovering space elevator terminal",
+            "雑然としたコンテナハウス": "chaotic container housing",
+            "厳重警備の政府庁舎": "secured government buildings",
+            "廃墟に建てられた仮設建造物": "makeshift structures built on ruins",
+            "巨大な信号送信塔": "giant signal transmission towers",
+            "半露天の空中庭園": "semi-open hanging gardens",
+            "データセンターの冷却塔": "data center cooling towers"
+          }
+        },
+        {
+          "sub_module_name": "交通機関と乗り物",
+          "tags": {
+            "飛び交う空飛ぶ車": "flying cars",
+            "磁気浮上式モノレール": "maglev monorail",
+            "重量級輸送船": "heavy transport ship",
+            "錆びついたホバーバイク": "rusty hoverbike",
+            "自動運転タクシー": "autonomous taxis",
+            "青い炎を噴く警備パトロール艇": "security patrol boats with blue thruster flames",
+            "巨大なエアバス": "massive aerobuses",
+            "重機建機": "heavy duty construction vehicles",
+            "群れを成す配送ドローン": "swarms of delivery drones",
+            "雲を突き抜ける軌道シャトル": "orbital shuttles piercing the clouds",
+            "混雑するサイバー地下鉄": "crowded cyber-subways",
+            "個人用ジェットパック": "personal jetpacks",
+            "黒煙を吐く改造トラック": "modified trucks belching dark smoke",
+            "ロボット輸送車": "robotic transport vans",
+            "ホバーボード": "hoverboards",
+            "屋上に停泊するプライベートシャトル": "private shuttles parked on rooftops",
+            "水上浮遊バス": "hovering water buses",
+            "自動貨物列車": "automated cargo trains"
+          }
+        }
+      ]
+    },
+    {
+      "module_name": "雰囲気とディテール",
+      "is_open": true,
+      "sub_modules": [
+        {
+          "sub_module_name": "サイバーな光と影",
+          "tags": {
+            "眩いネオンサイン": "blinding neon signs",
+            "巨大なホログラム広告": "giant holographic advertisements",
+            "寒色系の街灯": "cold street lights",
+            "明滅する回路の火花": "flickering circuit sparks",
+            "スモッグを切り裂くサーチライト": "searchlight beams piercing through smog",
+            "点滅する警告灯": "flashing warning lights",
+            "画面から漏れる不気味な青い光": "eerie blue glow from screens",
+            "船尾のプラズマ噴射": "plasma jets from ship exhaust",
+            "雨に反射する色鮮やかな光": "colorful light spots reflected in rain",
+            "暗い路地の蛍光ストリートアート": "fluorescent street art in dark alleys",
+            "VRインターフェースの淡い光": "faint glow of VR interfaces",
+            "グリッチアートのスクリーン": "glitching art screens",
+            "眩しいレーザースキャナー": "bright laser scanners",
+            "サイバネティックな眼が放つ柔らかな光": "gentle glow from cybernetic optics",
+            "地下の薄暗い白熱灯": "dim incandescent lights in basements",
+            "ホログラム交通標識": "holographic traffic signs",
+            "ホログラムクラゲの装飾": "dynamic holographic jellyfish decor",
+            "投影式の地面ナビライン": "projected ground navigation lines"
+          }
+        },
+        {
+          "sub_module_name": "環境の質感",
+          "tags": {
+            "水たまりが反射する濡れた路面": "puddle-reflecting wet streets",
+            "厚い工業スモッグ": "thick industrial smog",
+            "絡まり合う廃ケーブル": "tangled abandoned cables",
+            "アートで覆われた路地": "art-covered alleys",
+            "山積みの電子ゴミ": "mountains of electronic waste",
+            "錆びた金属パイプ": "rusty metal pipes",
+            "風に舞うプラスチックゴミ": "plastic trash blowing in the wind",
+            "絶え間なく降る雨": "incessant rain",
+            "湿って苔むしたコンクリート": "damp and mossy concrete",
+            "鼻をつく化学排気": "pungent chemical exhausts",
+            "ノイズ混じりのラジオ放送": "static-filled radio broadcasts",
+            "砂嵐の映る古いテレビ": "old TVs with static snow",
+            "油汚れした機械部品": "oil-stained mechanical parts",
+            "ひび割れて水漏れするパイプ": "cracked and leaking water pipes",
+            "ハイテクな六角形のテクスチャ": "high-tech hexagonal textures",
+            "湯気を上げる通気口": "steaming ventilation shafts",
+            "摩耗した金属の壁": "worn-out metallic wall textures",
+            "埃を被ったソーラーパネル": "dusty solar panels"
+          }
+        }
+      ]
+    },
+    {
+      "module_name": "キャラクターと市民",
+      "is_open": true,
+      "sub_modules": [
+        {
+          "sub_module_name": "アーキタイプと役割",
+          "tags": {
+            "フリーランスのネットランナー": "freelance netrunners",
+            "野心的な企業幹部": "ambitious corporate executives",
+            "身体拡張したストリートパフォーマー": "augmented street performers",
+            "地下のサイバー義体技師": "underground cyber-mechanics",
+            "ロボット警備員": "robotic security guards",
+            "データ回収スペシャリスト": "data retrieval specialists",
+            "テクノロジーに精通した探検家": "tech-savvy explorers",
+            "バーチャルリアリティ愛好家": "virtual reality enthusiasts",
+            "配送ドローンオペレーター": "drone delivery operators",
+            "ホログラムファッションブロガー": "holographic fashion bloggers"
+          }
+        },
+        {
+          "sub_module_name": "組織と社会",
+          "tags": {
+            "全能の巨大企業": "omnipotent mega-corporations",
+            "ストリートレースチーム": "street racing crews",
+            "自然保護団体": "nature preservation societies",
+            "地下ハッカー集団": "underground hacker collectives",
+            "企業警備部隊": "corporate security forces",
+            "秘密の商人ギルド": "secretive merchant guilds",
+            "ロボット権利擁護同盟": "robot rights union",
+            "仮想空間の建築家": "virtual space builders"
+          }
+        }
+      ]
+    },
+    {
+      "module_name": "サイバネティクスとテクノロジー",
+      "is_open": true,
+      "sub_modules": [
+        {
+          "sub_module_name": "身体改造",
+          "tags": {
+            "クロームメッキのサイバネティックアーム": "chrome-plated cybernetic arms",
+            "発光するニューラルリンクポート": "glowing neural link ports",
+            "人工光学インプラント": "synthetic optical implants",
+            "機械拡張された脊椎": "augmented mechanical spines",
+            "音声合成機": "vocal cord synthesizers",
+            "収納式マルチツール": "retractable multi-tools",
+            "内蔵型楽器": "built-in musical instruments",
+            "スマートウェアラブルスキン": "smart wearable skin"
+          }
+        },
+        {
+          "sub_module_name": "ソフトウェアとハードウェア",
+          "tags": {
+            "ポータブルサイバーデッキ": "portable cyberdecks",
+            "企業グレードのファイアウォール": "enterprise-grade firewall programs",
+            "好奇心旺盛な人工知能": "curious artificial intelligence",
+            "ホログラムメモリチップ": "holographic memory chips",
+            "レアなVRシミュレーション": "rare virtual reality simulations",
+            "量子処理ノード": "quantum processing nodes",
+            "個人用ポータブルデータポッド": "personal data pods"
+          }
+        }
+      ]
+    },
+    {
+      "module_name": "日常生活とエンターテインメント",
+      "is_open": true,
+      "sub_modules": [
+        {
+          "sub_module_name": "レジャー活動",
+          "tags": {
+            "ホログラムアーケードゲーム": "holographic arcade games",
+            "無重力スポーツアリーナ": "zero-gravity sports arenas",
+            "サイバーペットパーク": "cyber-pet parks",
+            "シンセミュージックコンサート": "synth-music concerts",
+            "VRカフェ": "virtual reality cafes",
+            "ロボットパートナー展示会": "robotic companion shows",
+            "空中ヨガスタジオ": "aerial yoga studios"
+          }
+        },
+        {
+          "sub_module_name": "サイバーパンクファッション",
+          "tags": {
+            "発光LEDジャケット": "glowing LED jackets",
+            "ホログラムバイザー": "holographic visors",
+            "反応型スマートファブリック": "reactive smart fabrics",
+            "メタリックな厚底ブーツ": "metallic platform boots",
+            "ネオンカラーの染髪": "neon-tinted hair dyes",
+            "デジタルディスプレイ付きスニーカー": "digital display sneakers",
+            "色が変わるパーカー": "color-changing hoodies"
+          }
+        }
+      ]
+    }
+  ]
+}

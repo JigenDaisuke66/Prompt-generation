@@ -1,0 +1,109 @@
+{
+  "project_name": "建筑与室内设计词库",
+  "module_groups": [
+    {
+      "module_name": "风格与空间",
+      "is_open": true,
+      "sub_modules": [
+        {
+          "sub_module_name": "室内风格",
+          "tags": {
+            "现代极简主义": "modern minimalism",
+            "温馨乡村风": "cozy rustic style",
+            "暖色斯堪的纳维亚风": "warm Scandinavian style",
+            "优雅复古风": "elegant vintage style",
+            "日式侘寂风": "Japanese wabi-sabi",
+            "法式乡村风": "French country style",
+            "地中海风格": "Mediterranean style",
+            "波西米亚折衷主义": "Bohemian eclectic",
+            "中世纪现代风": "mid-century modern",
+            "简洁未来风": "clean futuristic style",
+            "传统禅意风": "traditional Zen",
+            "新古典主义": "neo-classical style",
+            "装饰艺术风格": "Art Deco style",
+            "美式复古风": "American vintage style",
+            "摩洛哥异域风": "Moroccan aesthetic",
+            "热带绿洲风": "tropical oasis style",
+            "工业极简风": "industrial minimalism",
+            "意式奢华风": "Italian luxury style"
+          }
+        },
+        {
+          "sub_module_name": "房间布局",
+          "tags": {
+            "开放式中岛厨房": "open-concept island kitchen",
+            "带落地窗的客厅": "living room with floor-to-ceiling windows",
+            "充满绿植的阳光房": "plant-filled sunroom",
+            "明亮温馨的酒窖": "bright and welcoming cellar",
+            "带步入式衣帽间的主卧": "master bedroom with walk-in closet",
+            "双层挑高阁楼": "double-height loft",
+            "全景天窗浴室": "bathroom with panoramic skylight",
+            "带壁炉的舒适阅读角": "cozy reading nook with a fireplace",
+            "环绕式观景露台": "wraparound observation terrace",
+            "下沉式休闲区": "sunken lounge area",
+            "干湿分离卫浴": "well-organized bathroom",
+            "隐藏式收纳墙": "hidden storage wall",
+            "优雅阶梯设计": "elegant staircase design",
+            "清澈的玻璃泳池": "crystal clear glass pool",
+            "静谧日式榻榻米茶室": "quiet Japanese tatami tea room",
+            "带吧台的家庭影院": "home theater with a bar",
+            "多功能健身空间": "multifunctional fitness area",
+            "私人艺术画廊空间": "private art gallery space"
+          }
+        }
+      ]
+    },
+    {
+      "module_name": "材质与软装",
+      "is_open": true,
+      "sub_modules": [
+        {
+          "sub_module_name": "硬装材质",
+          "tags": {
+            "抛光大理石地板": "polished marble flooring",
+            "装饰性砖墙": "decorative brick wall",
+            "暖色胡桃木护墙板": "warm walnut wood panelling",
+            "平滑混凝土墙面": "smooth concrete wall",
+            "水磨石地面": "terrazzo flooring",
+            "复古花砖": "vintage patterned tiles",
+            "拉丝黄铜金属件": "brushed brass fixtures",
+            "天然纹理原木": "natural grain solid wood",
+            "半透明磨砂玻璃": "translucent frosted glass",
+            "柔软毛毡护墙板": "soft felt wall panels",
+            "微水泥墙面": "smooth microcement",
+            "装饰性吊顶": "decorative ceiling",
+            "几何拼花地板": "geometric parquet flooring",
+            "艺术玻璃砖墙": "artistic glass block wall",
+            "天然板岩": "natural slate stone",
+            "环保竹纤维板": "eco-friendly bamboo fiberboard",
+            "金属网隔断": "metal mesh partition",
+            "天然亚麻饰面": "natural linen finish"
+          }
+        },
+        {
+          "sub_module_name": "家具与陈设",
+          "tags": {
+            "柔软天鹅绒沙发": "soft velvet sofa",
+            "几何吊灯": "geometric chandelier",
+            "经典花纹地毯": "classic patterned rug",
+            "极简主义挂画": "minimalist wall art",
+            "藤编休闲椅": "rattan lounge chair",
+            "实木餐桌": "solid wood dining table",
+            "悬浮洗手台": "floating vanity",
+            "装饰抱枕": "decorative throw pillows",
+            "异形全身镜": "irregular shaped full-length mirror",
+            "陶瓷花瓶": "ceramic vase",
+            "智能氛围灯": "smart ambient mood lighting",
+            "粗针织毛毯": "chunky knit blanket",
+            "舒适皮质单人椅": "comfortable leather armchair",
+            "大型室内植物": "large indoor plant",
+            "多功能折叠家具": "multifunctional furniture",
+            "复古音乐播放器": "vintage music player",
+            "抽象金属雕塑": "abstract metal sculpture",
+            "手工编织挂毯": "hand-woven tapestry"
+          }
+        }
+      ]
+    }
+  ]
+}

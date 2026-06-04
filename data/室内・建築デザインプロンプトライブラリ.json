@@ -1,0 +1,109 @@
+{
+  "project_name": "建築とインテリアデザイン語彙集",
+  "module_groups": [
+    {
+      "module_name": "スタイルと空間",
+      "is_open": true,
+      "sub_modules": [
+        {
+          "sub_module_name": "インテリアスタイル",
+          "tags": {
+            "モダンミニマリズム": "modern minimalism",
+            "居心地の良いラスティックスタイル": "cozy rustic style",
+            "温かみのある北欧スタイル": "warm Scandinavian style",
+            "エレガントなヴィンテージスタイル": "elegant vintage style",
+            "和の侘び寂び": "Japanese wabi-sabi",
+            "フレンチカントリースタイル": "French country style",
+            "地中海スタイル": "Mediterranean style",
+            "ボヘミアン・エクレクティック": "Bohemian eclectic",
+            "ミッドセンチュリーモダン": "mid-century modern",
+            "クリーンなフューチャリスティック": "clean futuristic style",
+            "伝統的な禅スタイル": "traditional Zen",
+            "ネオクラシカルスタイル": "neo-classical style",
+            "アールデコスタイル": "Art Deco style",
+            "アメリカンヴィンテージ": "American vintage style",
+            "モロッコ風美学": "Moroccan aesthetic",
+            "トロピカルオアシススタイル": "tropical oasis style",
+            "工業ミニマリズム": "industrial minimalism",
+            "イタリアンラグジュアリー": "Italian luxury style"
+          }
+        },
+        {
+          "sub_module_name": "間取りとレイアウト",
+          "tags": {
+            "オープンコンセプトのアイランドキッチン": "open-concept island kitchen",
+            "床から天井までの窓があるリビング": "living room with floor-to-ceiling windows",
+            "観葉植物でいっぱいのサンルーム": "plant-filled sunroom",
+            "明るく開放的なセラー": "bright and welcoming cellar",
+            "ウォークインクローゼット付き主寝室": "master bedroom with walk-in closet",
+            "吹き抜けの二層ロフト": "double-height loft",
+            "パノラマ天窓付きバスルーム": "bathroom with panoramic skylight",
+            "暖炉のある居心地の良い読書スペース": "cozy reading nook with a fireplace",
+            "全方位の展望テラス": "wraparound observation terrace",
+            "サンクンラウンジ（一段低いリビング）": "sunken lounge area",
+            "機能的なバスルーム": "well-organized bathroom",
+            "隠し収納壁": "hidden storage wall",
+            "優雅な階段デザイン": "elegant staircase design",
+            "クリスタルクリアなガラスプール": "crystal clear glass pool",
+            "静かな和室（畳の茶室）": "quiet Japanese tatami tea room",
+            "バーカウンター付きホームシアター": "home theater with a bar",
+            "多目的フィットネススペース": "multifunctional fitness area",
+            "プライベートアートギャラリー": "private art gallery space"
+          }
+        }
+      ]
+    },
+    {
+      "module_name": "素材とデコレーション",
+      "is_open": true,
+      "sub_modules": [
+        {
+          "sub_module_name": "建築素材",
+          "tags": {
+            "磨き上げられた大理石の床": "polished marble flooring",
+            "装飾的なレンガ壁": "decorative brick wall",
+            "温かみのあるウォールナット材のパネル": "warm walnut wood panelling",
+            "滑らかなコンクリート壁": "smooth concrete wall",
+            "テラゾー（人造大理石）の床": "terrazzo flooring",
+            "ヴィンテージ柄のタイル": "vintage patterned tiles",
+            "ブラッシュドブラスの金具": "brushed brass fixtures",
+            "天然木の風合い": "natural grain solid wood",
+            "半透明のフロストガラス": "translucent frosted glass",
+            "柔らかなフェルト壁パネル": "soft felt wall panels",
+            "滑らかなマイクロセメント": "smooth microcement",
+            "装飾的な天井": "decorative ceiling",
+            "幾何学模様の寄木細工の床": "geometric parquet flooring",
+            "芸術的なガラスブロック壁": "artistic glass block wall",
+            "天然スレート（粘板岩）": "natural slate stone",
+            "環境に優しい竹繊維パネル": "eco-friendly bamboo fiberboard",
+            "金属メッシュの間仕切り": "metal mesh partition",
+            "天然リネンの仕上げ": "natural linen finish"
+          }
+        },
+        {
+          "sub_module_name": "家具と装飾",
+          "tags": {
+            "柔らかなベルベットソファ": "soft velvet sofa",
+            "幾何学的なシャンデリア": "geometric chandelier",
+            "クラシック柄のラグ": "classic patterned rug",
+            "ミニマリストなウォールアート": "minimalist wall art",
+            "ラタン製ラウンジチェア": "rattan lounge chair",
+            "無垢材のダイニングテーブル": "solid wood dining table",
+            "浮遊感のある洗面台": "floating vanity",
+            "装飾用スローピロー": "decorative throw pillows",
+            "変形全身鏡": "irregular shaped full-length mirror",
+            "陶器製の花瓶": "ceramic vase",
+            "スマートな環境照明": "smart ambient mood lighting",
+            "厚手のニットブランケット": "chunky knit blanket",
+            "快適なレザー製アームチェア": "comfortable leather armchair",
+            "大型の観葉植物": "large indoor plant",
+            "多機能折りたたみ家具": "multifunctional furniture",
+            "ヴィンテージ蓄音機": "vintage music player",
+            "抽象的な金属彫刻": "abstract metal sculpture",
+            "手織りのタペストリー": "hand-woven tapestry"
+          }
+        }
+      ]
+    }
+  ]
+}
