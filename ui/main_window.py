@@ -8,6 +8,8 @@ from PyQt6.QtGui import QAction, QActionGroup
 from ui.components import TagWidget, ModuleGroupWidget
 from core.config_manager import ConfigManager
 from core.parser import DataParser
+from PyQt6.QtWidgets import QLineEdit  # 引入输入框组件
+from ui.editor_window import LibraryEditor # 引入我们刚写的编辑器
 
 class MainWindow(QMainWindow):
     def __init__(self, data_tree):
@@ -32,17 +34,40 @@ class MainWindow(QMainWindow):
         self.menu_bar = self.menuBar()
         self.menu_bar.setObjectName("main_menu_bar")
 
-        # 1. 文件菜单
         self.file_menu = self.menu_bar.addMenu("")
+        
+        # === 1. 新建词库 ===
+        self.new_action = QAction("", self)
+        self.new_action.setShortcut("Ctrl+N")
+        self.new_action.triggered.connect(self.new_library)
+        self.file_menu.addAction(self.new_action)
+        
+        self.file_menu.addSeparator()
+
+        # === 2. 加载/加载并编辑 ===
         self.open_action = QAction("", self)
         self.open_action.setShortcut("Ctrl+O")
-        self.open_action.triggered.connect(self.load_new_dict)
+        self.open_action.triggered.connect(self.load_new_dict) 
         self.file_menu.addAction(self.open_action)
+        
+        self.edit_other_action = QAction("", self)
+        self.edit_other_action.triggered.connect(self.edit_other) 
+        self.file_menu.addAction(self.edit_other_action)
+        
+        self.file_menu.addSeparator()
+        
+        # === 3. 编辑当前词库 ===
+        self.edit_current_action = QAction("", self)
+        self.edit_current_action.setShortcut("Ctrl+E")
+        self.edit_current_action.triggered.connect(self.edit_current)
+        self.file_menu.addAction(self.edit_current_action)
+
         self.file_menu.addSeparator()
         self.exit_action = QAction("", self)
         self.exit_action.setShortcut("Ctrl+Q")
         self.exit_action.triggered.connect(self.close)
         self.file_menu.addAction(self.exit_action)
+        
 
         # 2. 主题菜单
         self.theme_menu = self.menu_bar.addMenu("")
@@ -65,31 +90,70 @@ class MainWindow(QMainWindow):
         self.theme_menu.addAction(self.action_theme_light)
         self.theme_menu.addAction(self.action_theme_dracula)
 
-        # 3. 设置菜单 (语言)
+        # 3. 设置菜单 (包含语言)
         self.settings_menu = self.menu_bar.addMenu("")
         self.lang_menu = self.settings_menu.addMenu("")
         lang_group = QActionGroup(self)
         
+        # 简体中文
         self.action_cn = QAction(self.config.get_text("menu_lang_cn"), self, checkable=True)
         self.action_cn.setChecked(self.config.current_lang == "cn")
         self.action_cn.triggered.connect(lambda: self.switch_language("cn"))
         lang_group.addAction(self.action_cn)
         
+        # 英文
         self.action_en = QAction(self.config.get_text("menu_lang_en"), self, checkable=True)
         self.action_en.setChecked(self.config.current_lang == "en")
         self.action_en.triggered.connect(lambda: self.switch_language("en"))
         lang_group.addAction(self.action_en)
         
-        # === 新增：日文菜单项 ===
+        # 日文
         self.action_ja = QAction(self.config.get_text("menu_lang_ja"), self, checkable=True)
         self.action_ja.setChecked(self.config.current_lang == "ja")
         self.action_ja.triggered.connect(lambda: self.switch_language("ja"))
         lang_group.addAction(self.action_ja)
-        # ========================
 
-        self.lang_menu.addAction(self.action_cn)
-        self.lang_menu.addAction(self.action_en)
-        self.lang_menu.addAction(self.action_ja) # 加入日文菜单
+        # === 新增：繁体中文 ===
+        self.action_tw = QAction(self.config.get_text("menu_lang_tw"), self, checkable=True)
+        self.action_tw.setChecked(self.config.current_lang == "tw")
+        self.action_tw.triggered.connect(lambda: self.switch_language("tw"))
+        lang_group.addAction(self.action_tw)
+
+        # === 新增：德语 ===
+        self.action_de = QAction(self.config.get_text("menu_lang_de"), self, checkable=True)
+        self.action_de.setChecked(self.config.current_lang == "de")
+        self.action_de.triggered.connect(lambda: self.switch_language("de"))
+        lang_group.addAction(self.action_de)
+        # ======================
+
+        # === 新增：俄语 ===
+        self.action_ru = QAction(self.config.get_text("menu_lang_ru"), self, checkable=True)
+        self.action_ru.setChecked(self.config.current_lang == "ru")
+        self.action_ru.triggered.connect(lambda: self.switch_language("ru"))
+        lang_group.addAction(self.action_ru)
+        
+        # === 新增：韩语 ===
+        self.action_ko = QAction(self.config.get_text("menu_lang_ko"), self, checkable=True)
+        self.action_ko.setChecked(self.config.current_lang == "ko")
+        self.action_ko.triggered.connect(lambda: self.switch_language("ko"))
+        lang_group.addAction(self.action_ko)
+        
+        # === 新增：西班牙语 ===
+        self.action_es = QAction(self.config.get_text("menu_lang_es"), self, checkable=True)
+        self.action_es.setChecked(self.config.current_lang == "es")
+        self.action_es.triggered.connect(lambda: self.switch_language("es"))
+        lang_group.addAction(self.action_es)
+
+        # 将所有的 Action 按照顺序添加到菜单栏
+        self.lang_menu.addAction(self.action_en) # 英语
+        self.lang_menu.addAction(self.action_ru) # 俄语
+        self.lang_menu.addAction(self.action_de) # 德语
+        self.lang_menu.addAction(self.action_ja) # 日语
+        self.lang_menu.addAction(self.action_ko) # 韩语
+        self.lang_menu.addAction(self.action_es) # 西班牙语
+        self.lang_menu.addAction(self.action_cn) # 简体
+        self.lang_menu.addAction(self.action_tw) # 繁体放到简体旁边
+      
 
         # 4. 帮助菜单
         self.help_menu = self.menu_bar.addMenu("")
@@ -136,6 +200,18 @@ class MainWindow(QMainWindow):
         insp_layout.addWidget(self.insp_text)
         main_layout.addLayout(insp_layout)
         # =================================================
+
+
+        # ====== 新增：自由补充提示词输入框 ======
+        custom_prompt_layout = QVBoxLayout()
+        self.custom_prompt_label = QLabel()
+        self.custom_prompt_label.setObjectName("output_label")
+        self.custom_prompt_input = QLineEdit()
+        self.custom_prompt_input.setPlaceholderText("masterpiece, best quality, 1girl, ...")
+        custom_prompt_layout.addWidget(self.custom_prompt_label)
+        custom_prompt_layout.addWidget(self.custom_prompt_input)
+        main_layout.addLayout(custom_prompt_layout)
+        # =======================================
 
         # 2. 原有的双栏输出框
         output_container = QWidget()
@@ -198,6 +274,12 @@ class MainWindow(QMainWindow):
         self.retranslate_ui()
 
     def retranslate_ui(self):
+        # 新增的菜单翻译
+        self.new_action.setText(self.config.get_text("menu_new"))
+        self.edit_current_action.setText(self.config.get_text("menu_edit_current"))
+        self.edit_other_action.setText(self.config.get_text("menu_edit_other"))
+        self.custom_prompt_label.setText(self.config.get_text("lbl_custom_prompt"))
+
         self.file_menu.setTitle(self.config.get_text("menu_file"))
         # 新增主题相关的翻译
         self.theme_menu.setTitle(self.config.get_text("menu_theme"))
@@ -284,11 +366,21 @@ class MainWindow(QMainWindow):
     def generate_prompt(self):
         selected_tags_en = []
         selected_tags_local = []
+        
+        # 1. 抓取自由补充框的内容 (核心拼接逻辑)
+        custom_text = self.custom_prompt_input.text().strip()
+        if custom_text:
+            selected_tags_en.append(custom_text)
+            selected_tags_local.append(custom_text)
+            
+        # 2. 收集按钮标签
         all_tag_widgets = self.scroll_content.findChildren(TagWidget)
         for widget in all_tag_widgets:
             if widget.isChecked():
                 selected_tags_en.append(widget.get_formatted_tag())
                 selected_tags_local.append(widget.get_formatted_display())
+                
+        # 3. 输出
         if selected_tags_en:
             self.output_text_en.setText(", ".join(selected_tags_en))
             self.output_text_local.setText(", ".join(selected_tags_local))
@@ -325,47 +417,61 @@ class MainWindow(QMainWindow):
             else:
                 self.scroll_layout.removeItem(item)
 
-    def load_new_dict(self):
-        """弹出对话框选择新词库，并动态重绘界面"""
-        # 计算默认打开的 data 目录路径
-        default_dir = self.config.assets_dir.replace("assets", "data")
-        if not os.path.exists(default_dir):
-            default_dir = ""
+    def load_new_dict(self, file_path=None):
+        # 如果没有传 file_path，就弹出对话框让用户选
+        if not file_path:
+            default_dir = self.config.assets_dir.replace("assets", "data")
+            if not os.path.exists(default_dir): default_dir = ""
+            file_path, _ = QFileDialog.getOpenFileName(
+                self, self.config.get_text("menu_load"), default_dir, "JSON Files (*.json);;All Files (*)")
 
-        # 弹出文件选择对话框
-        file_path, _ = QFileDialog.getOpenFileName(
-            self,
-            self.config.get_text("menu_load"),
-            default_dir,
-            "JSON Files (*.json);;All Files (*)"
-        )
-
-        if file_path: # 如果用户选择了文件（没有点取消）
+        if file_path:
             try:
-                # 1. 解析新数据
                 parser = DataParser()
-                new_data_tree = parser.parse(file_path)
-                
-                # 2. 更新内存数据和窗口标题
-                self.data_tree = new_data_tree
+                self.data_tree = parser.parse(file_path)
                 self.setWindowTitle(self.data_tree.get("project_name", "Prompt-generation"))
-                
-                # 3. 清空旧 UI，重新渲染新 UI
                 self._clear_modules()
                 self._render_modules(self.data_tree.get("module_groups", []))
-                self.scroll_layout.addStretch() # 重新在底部垫上弹簧，把模块顶上去
-                
-                # 4. 重置底部的各种状态框
+                self.scroll_layout.addStretch()
                 self.output_text_local.clear()
                 self.output_text_en.clear()
                 self.insp_text.clear()
                 self.apply_insp_btn.setVisible(False)
                 self.last_inspired_widgets.clear()
-                
-                # 5. 在状态栏提示成功
                 filename = os.path.basename(file_path)
                 self.statusBar().showMessage(f"✅ Loaded: {filename}", 4000)
-                
             except Exception as e:
-                # 如果 JSON 格式不对或者解析出错，弹出错误框，界面保持原样
                 QMessageBox.critical(self, "Error", f"Failed to load library file:\n{str(e)}")
+    
+    def new_library(self):
+        """新建词库：传入一个干净的空字典"""
+        empty_data = {"project_name": "New_Library", "module_groups": []}
+        editor = LibraryEditor(empty_data, self)
+        if editor.exec():
+            self.load_new_dict(editor.saved_path)
+
+    def edit_current(self):
+        """编辑当前：直接传入内存中正在使用的词库数据"""
+        editor = LibraryEditor(self.data_tree, self)
+        if editor.exec():
+            self.load_new_dict(editor.saved_path)
+
+    def edit_other(self):
+        """选文件编辑：先弹出选择框，解析后直接喂给编辑器，不污染当前主界面"""
+        default_dir = self.config.assets_dir.replace("assets", "data")
+        if not os.path.exists(default_dir): default_dir = ""
+        file_path, _ = QFileDialog.getOpenFileName(
+            self, self.config.get_text("menu_edit_other"), default_dir, "JSON Files (*.json);;All Files (*)")
+        
+        if file_path:
+            try:
+                from core.parser import DataParser # 确保能解析
+                parser = DataParser()
+                target_data = parser.parse(file_path)
+                
+                # 把解析出的新数据扔进编辑器
+                editor = LibraryEditor(target_data, self)
+                if editor.exec():
+                    self.load_new_dict(editor.saved_path) # 如果保存了，主界面就同步加载它
+            except Exception as e:
+                QMessageBox.critical(self, "Error", f"Failed to load file for editing:\n{str(e)}")

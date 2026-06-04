@@ -1,0 +1,188 @@
+{
+  "project_name": "Cyberpunk Sci-Fi City Lexicon (All-Ages Expanded Edition)",
+  "module_groups": [
+    {
+      "module_name": "City Elements",
+      "is_open": true,
+      "sub_modules": [
+        {
+          "sub_module_name": "Architectural Structures",
+          "tags": {
+            "towering skyscrapers": "towering skyscrapers",
+            "intricate skybridges": "intricate skybridges",
+            "crowded lower-level sectors": "crowded lower-level sectors",
+            "megacorp headquarters": "megacorp headquarters",
+            "dense capsule apartments": "dense capsule apartments",
+            "abandoned industrial factories": "abandoned industrial factories",
+            "underground trading hubs": "underground trading hubs",
+            "neon-lit commercial streets": "neon-lit commercial streets",
+            "massive biodome": "massive biodome",
+            "vertical hydroponic farms": "vertical hydroponic farms",
+            "steel and glass pyramids": "steel and glass pyramids",
+            "hovering space elevator terminal": "hovering space elevator terminal",
+            "chaotic container housing": "chaotic container housing",
+            "secured government buildings": "secured government buildings",
+            "makeshift structures built on ruins": "makeshift structures built on ruins",
+            "giant signal transmission towers": "giant signal transmission towers"
+          }
+        },
+        {
+          "sub_module_name": "Transportation and Vehicles",
+          "tags": {
+            "flying cars": "flying cars",
+            "maglev monorail": "maglev monorail",
+            "heavy transport ship": "heavy transport ship",
+            "rusty hoverbike": "rusty hoverbike",
+            "autonomous taxis": "autonomous taxis",
+            "security patrol boats with blue thruster flames": "security patrol boats with blue thruster flames",
+            "massive aerobuses": "massive aerobuses",
+            "heavy duty construction vehicles": "heavy duty construction vehicles",
+            "swarms of delivery drones": "swarms of delivery drones",
+            "orbital shuttles piercing the clouds": "orbital shuttles piercing the clouds",
+            "crowded cyber-subways": "crowded cyber-subways",
+            "personal jetpacks": "personal jetpacks",
+            "modified trucks belching dark smoke": "modified trucks belching dark smoke",
+            "robotic transport vans": "robotic transport vans",
+            "hoverboards": "hoverboards",
+            "private shuttles parked on rooftops": "private shuttles parked on rooftops"
+          }
+        }
+      ]
+    },
+    {
+      "module_name": "Atmosphere and Details",
+      "is_open": true,
+      "sub_modules": [
+        {
+          "sub_module_name": "Cyber Lighting and Shadows",
+          "tags": {
+            "blinding neon signs": "blinding neon signs",
+            "giant holographic advertisements": "giant holographic advertisements",
+            "cold street lights": "cold street lights",
+            "flickering circuit sparks": "flickering circuit sparks",
+            "searchlight beams piercing through smog": "searchlight beams piercing through smog",
+            "flashing warning lights": "flashing warning lights",
+            "eerie blue glow from screens": "eerie blue glow from screens",
+            "plasma jets from ship exhaust": "plasma jets from ship exhaust",
+            "colorful light spots reflected in rain": "colorful light spots reflected in rain",
+            "fluorescent street art in dark alleys": "fluorescent street art in dark alleys",
+            "faint glow of VR interfaces": "faint glow of VR interfaces",
+            "glitching art screens": "glitching art screens",
+            "bright laser scanners": "bright laser scanners",
+            "gentle glow from cybernetic optics": "gentle glow from cybernetic optics",
+            "dim incandescent lights in basements": "dim incandescent lights in basements",
+            "holographic traffic signs": "holographic traffic signs"
+          }
+        },
+        {
+          "sub_module_name": "Environmental Textures",
+          "tags": {
+            "puddle-reflecting wet streets": "puddle-reflecting wet streets",
+            "thick industrial smog": "thick industrial smog",
+            "tangled abandoned cables": "tangled abandoned cables",
+            "art-covered alleys": "art-covered alleys",
+            "mountains of electronic waste": "mountains of electronic waste",
+            "rusty metal pipes": "rusty metal pipes",
+            "plastic trash blowing in the wind": "plastic trash blowing in the wind",
+            "incessant rain": "incessant rain",
+            "damp and mossy concrete": "damp and mossy concrete",
+            "pungent chemical exhausts": "pungent chemical exhausts",
+            "static-filled radio broadcasts": "static-filled radio broadcasts",
+            "old TVs with static snow": "old TVs with static snow",
+            "oil-stained mechanical parts": "oil-stained mechanical parts",
+            "cracked and leaking water pipes": "cracked and leaking water pipes",
+            "high-tech hexagonal textures": "high-tech hexagonal textures",
+            "steaming ventilation shafts": "steaming ventilation shafts"
+          }
+        }
+      ]
+    },
+    {
+      "module_name": "Characters and Citizens",
+      "is_open": true,
+      "sub_modules": [
+        {
+          "sub_module_name": "Archetypes and Roles",
+          "tags": {
+            "freelance netrunners": "freelance netrunners",
+            "ambitious corporate executives": "ambitious corporate executives",
+            "augmented street performers": "augmented street performers",
+            "underground cyber-mechanics": "underground cyber-mechanics",
+            "robotic security guards": "robotic security guards",
+            "data retrieval specialists": "data retrieval specialists",
+            "tech-savvy explorers": "tech-savvy explorers",
+            "virtual reality enthusiasts": "virtual reality enthusiasts"
+          }
+        },
+        {
+          "sub_module_name": "Groups and Societies",
+          "tags": {
+            "omnipotent mega-corporations": "omnipotent mega-corporations",
+            "street racing crews": "street racing crews",
+            "nature preservation societies": "nature preservation societies",
+            "underground hacker collectives": "underground hacker collectives",
+            "corporate security forces": "corporate security forces",
+            "secretive merchant guilds": "secretive merchant guilds"
+          }
+        }
+      ]
+    },
+    {
+      "module_name": "Cybernetics and Technology",
+      "is_open": true,
+      "sub_modules": [
+        {
+          "sub_module_name": "Body Modifications",
+          "tags": {
+            "chrome-plated cybernetic arms": "chrome-plated cybernetic arms",
+            "glowing neural link ports": "glowing neural link ports",
+            "synthetic optical implants": "synthetic optical implants",
+            "augmented mechanical spines": "augmented mechanical spines",
+            "vocal cord synthesizers": "vocal cord synthesizers",
+            "retractable multi-tools": "retractable multi-tools",
+            "built-in musical instruments": "built-in musical instruments"
+          }
+        },
+        {
+          "sub_module_name": "Software and Hardware",
+          "tags": {
+            "portable cyberdecks": "portable cyberdecks",
+            "enterprise-grade firewall programs": "enterprise-grade firewall programs",
+            "curious artificial intelligence": "curious artificial intelligence",
+            "holographic memory chips": "holographic memory chips",
+            "rare virtual reality simulations": "rare virtual reality simulations",
+            "quantum processing nodes": "quantum processing nodes"
+          }
+        }
+      ]
+    },
+    {
+      "module_name": "Daily Life and Entertainment",
+      "is_open": true,
+      "sub_modules": [
+        {
+          "sub_module_name": "Leisure Activities",
+          "tags": {
+            "holographic arcade games": "holographic arcade games",
+            "zero-gravity sports arenas": "zero-gravity sports arenas",
+            "cyber-pet parks": "cyber-pet parks",
+            "synth-music concerts": "synth-music concerts",
+            "virtual reality cafes": "virtual reality cafes",
+            "robotic companion shows": "robotic companion shows"
+          }
+        },
+        {
+          "sub_module_name": "Cyberpunk Fashion",
+          "tags": {
+            "glowing LED jackets": "glowing LED jackets",
+            "holographic visors": "holographic visors",
+            "reactive smart fabrics": "reactive smart fabrics",
+            "metallic platform boots": "metallic platform boots",
+            "neon-tinted hair dyes": "neon-tinted hair dyes",
+            "digital display sneakers": "digital display sneakers"
+          }
+        }
+      ]
+    }
+  ]
+}

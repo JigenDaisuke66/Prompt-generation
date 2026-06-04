@@ -1,0 +1,101 @@
+{
+  "project_name": "Architecture and Interior Design Lexicon",
+  "module_groups": [
+    {
+      "module_name": "Style and Space",
+      "is_open": true,
+      "sub_modules": [
+        {
+          "sub_module_name": "Interior Styles",
+          "tags": {
+            "modern minimalism": "modern minimalism",
+            "cozy rustic style": "cozy rustic style",
+            "warm Scandinavian style": "warm Scandinavian style",
+            "elegant vintage style": "elegant vintage style",
+            "Japanese wabi-sabi": "Japanese wabi-sabi",
+            "French country style": "French country style",
+            "Mediterranean style": "Mediterranean style",
+            "Bohemian eclectic": "Bohemian eclectic",
+            "mid-century modern": "mid-century modern",
+            "clean futuristic style": "clean futuristic style",
+            "traditional Zen": "traditional Zen",
+            "neo-classical style": "neo-classical style",
+            "Art Deco style": "Art Deco style",
+            "American vintage style": "American vintage style",
+            "Moroccan aesthetic": "Moroccan aesthetic",
+            "tropical oasis style": "tropical oasis style"
+          }
+        },
+        {
+          "sub_module_name": "Room Layouts",
+          "tags": {
+            "open-concept island kitchen": "open-concept island kitchen",
+            "living room with floor-to-ceiling windows": "living room with floor-to-ceiling windows",
+            "plant-filled sunroom": "plant-filled sunroom",
+            "bright and welcoming cellar": "bright and welcoming cellar",
+            "master bedroom with walk-in closet": "master bedroom with walk-in closet",
+            "double-height loft": "double-height loft",
+            "bathroom with panoramic skylight": "bathroom with panoramic skylight",
+            "cozy reading nook with a fireplace": "cozy reading nook with a fireplace",
+            "wraparound observation terrace": "wraparound observation terrace",
+            "sunken lounge area": "sunken lounge area",
+            "well-organized bathroom": "well-organized bathroom",
+            "hidden storage wall": "hidden storage wall",
+            "elegant staircase design": "elegant staircase design",
+            "crystal clear glass pool": "crystal clear glass pool",
+            "quiet Japanese tatami tea room": "quiet Japanese tatami tea room",
+            "home theater with a bar": "home theater with a bar"
+          }
+        }
+      ]
+    },
+    {
+      "module_name": "Materials and Decor",
+      "is_open": true,
+      "sub_modules": [
+        {
+          "sub_module_name": "Surface Materials",
+          "tags": {
+            "polished marble flooring": "polished marble flooring",
+            "decorative brick wall": "decorative brick wall",
+            "warm walnut wood panelling": "warm walnut wood panelling",
+            "smooth concrete wall": "smooth concrete wall",
+            "terrazzo flooring": "terrazzo flooring",
+            "vintage patterned tiles": "vintage patterned tiles",
+            "brushed brass fixtures": "brushed brass fixtures",
+            "natural grain solid wood": "natural grain solid wood",
+            "translucent frosted glass": "translucent frosted glass",
+            "soft felt wall panels": "soft felt wall panels",
+            "smooth microcement": "smooth microcement",
+            "decorative ceiling": "decorative ceiling",
+            "geometric parquet flooring": "geometric parquet flooring",
+            "artistic glass block wall": "artistic glass block wall",
+            "natural slate stone": "natural slate stone",
+            "eco-friendly bamboo fiberboard": "eco-friendly bamboo fiberboard"
+          }
+        },
+        {
+          "sub_module_name": "Furniture and Decor",
+          "tags": {
+            "soft velvet sofa": "soft velvet sofa",
+            "geometric chandelier": "geometric chandelier",
+            "classic patterned rug": "classic patterned rug",
+            "minimalist wall art": "minimalist wall art",
+            "rattan lounge chair": "rattan lounge chair",
+            "solid wood dining table": "solid wood dining table",
+            "floating vanity": "floating vanity",
+            "decorative throw pillows": "decorative throw pillows",
+            "irregular shaped full-length mirror": "irregular shaped full-length mirror",
+            "ceramic vase": "ceramic vase",
+            "smart ambient mood lighting": "smart ambient mood lighting",
+            "chunky knit blanket": "chunky knit blanket",
+            "comfortable leather armchair": "comfortable leather armchair",
+            "large indoor plant": "large indoor plant",
+            "multifunctional furniture": "multifunctional furniture",
+            "vintage music player": "vintage music player"
+          }
+        }
+      ]
+    }
+  ]
+}

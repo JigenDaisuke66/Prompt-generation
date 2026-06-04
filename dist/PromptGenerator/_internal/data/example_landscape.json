@@ -1,0 +1,185 @@
+{
+  "project_name": "General Nature Landscape Lexicon",
+  "module_groups": [
+    {
+      "module_name": "Weather and Lighting",
+      "is_open": true,
+      "sub_modules": [
+        {
+          "sub_module_name": "Time of Day",
+          "tags": {
+            "daybreak": "daybreak",
+            "dawn": "dawn",
+            "early morning": "early morning",
+            "sunrise": "sunrise",
+            "mid-morning": "mid-morning",
+            "high noon": "high noon",
+            "lazy afternoon": "lazy afternoon",
+            "golden hour": "golden hour",
+            "sunset": "sunset",
+            "dusk": "dusk",
+            "nightfall": "nightfall",
+            "blue hour": "blue hour",
+            "starry night": "starry night",
+            "midnight": "midnight",
+            "midnight sun": "midnight sun"
+          }
+        },
+        {
+          "sub_module_name": "Meteorological Effects",
+          "tags": {
+            "clear sky": "clear sky",
+            "cloudy": "cloudy",
+            "heavy rain": "heavy rain",
+            "morning fog": "morning fog",
+            "aurora borealis": "aurora borealis",
+            "thunderstorm": "thunderstorm",
+            "drizzle": "drizzle",
+            "heavy snow": "heavy snow",
+            "blizzard": "blizzard",
+            "massive swirling tornado": "massive swirling tornado",
+            "beautiful rainbow": "beautiful rainbow",
+            "lightning strikes": "lightning strikes",
+            "crepuscular rays": "crepuscular rays",
+            "sandstorm": "sandstorm",
+            "hailstorm": "hailstorm",
+            "morning frost": "morning frost"
+          }
+        }
+      ]
+    },
+    {
+      "module_name": "Terrain and Ecology",
+      "is_open": true,
+      "sub_modules": [
+        {
+          "sub_module_name": "Natural Landforms",
+          "tags": {
+            "rolling mountains": "rolling mountains",
+            "steep cliffs": "steep cliffs",
+            "vast desert": "vast desert",
+            "lush forest": "lush forest",
+            "deep canyon": "deep canyon",
+            "erupting active volcano": "erupting active volcano",
+            "magnificent glacier": "magnificent glacier",
+            "karst landscape": "karst landscape",
+            "endless prairie": "endless prairie",
+            "cold polar tundra": "cold polar tundra",
+            "massive basin": "massive basin",
+            "mysterious stalactite cave": "mysterious stalactite cave",
+            "desolate gobi": "desolate gobi",
+            "rolling hills": "rolling hills",
+            "salt flat": "salt flat"
+          }
+        },
+        {
+          "sub_module_name": "Water Landscapes",
+          "tags": {
+            "crystal clear lake": "crystal clear lake",
+            "rushing river": "rushing river",
+            "peaceful beach": "peaceful beach",
+            "magnificent waterfall": "magnificent waterfall",
+            "winding forest stream": "winding forest stream",
+            "rough sea": "rough sea",
+            "deep dark ocean": "deep dark ocean",
+            "foggy swampy wetland": "foggy swampy wetland",
+            "colorful coral reef": "colorful coral reef",
+            "frozen lake": "frozen lake",
+            "hidden underground river": "hidden underground river",
+            "erupting geyser": "erupting geyser",
+            "tranquil bay": "tranquil bay",
+            "desert oasis pool": "desert oasis pool",
+            "tidal flat": "tidal flat"
+          }
+        }
+      ]
+    },
+    {
+      "module_name": "Flora and Fauna",
+      "is_open": true,
+      "sub_modules": [
+        {
+          "sub_module_name": "Botanical Elements",
+          "tags": {
+            "ancient banyan trees": "ancient banyan trees",
+            "blooming cherry blossoms": "blooming cherry blossoms",
+            "towering redwood trees": "towering redwood trees",
+            "colorful wildflower meadows": "colorful wildflower meadows",
+            "glowing bioluminescent mushrooms": "glowing bioluminescent mushrooms",
+            "sprawling ivy vines": "sprawling ivy vines",
+            "vibrant mossy rocks": "vibrant mossy rocks",
+            "swaying bamboo forest": "swaying bamboo forest"
+          }
+        },
+        {
+          "sub_module_name": "Wildlife Encounters",
+          "tags": {
+            "flocks of migrating birds": "flocks of migrating birds",
+            "grazing herds of deer": "grazing herds of deer",
+            "soaring majestic eagles": "soaring majestic eagles",
+            "playful leaping dolphins": "playful leaping dolphins",
+            "colorful tropical butterflies": "colorful tropical butterflies",
+            "glowing fireflies in the dark": "glowing fireflies in the dark",
+            "silver fish swimming in streams": "silver fish swimming in streams"
+          }
+        }
+      ]
+    },
+    {
+      "module_name": "Seasonal Atmospheres",
+      "is_open": true,
+      "sub_modules": [
+        {
+          "sub_module_name": "Spring and Summer",
+          "tags": {
+            "melting spring snow": "melting spring snow",
+            "fresh spring blooms": "fresh spring blooms",
+            "warm summer breeze": "warm summer breeze",
+            "sun-drenched forest canopies": "sun-drenched forest canopies",
+            "gentle summer showers": "gentle summer showers",
+            "vibrant green grass": "vibrant green grass"
+          }
+        },
+        {
+          "sub_module_name": "Autumn and Winter",
+          "tags": {
+            "falling autumn leaves": "falling autumn leaves",
+            "crisp autumn morning": "crisp autumn morning",
+            "golden maple trees": "golden maple trees",
+            "blanket of pristine winter snow": "blanket of pristine winter snow",
+            "frozen winter branches": "frozen winter branches",
+            "peaceful snowy silence": "peaceful snowy silence"
+          }
+        }
+      ]
+    },
+    {
+      "module_name": "Celestial and Cosmic",
+      "is_open": true,
+      "sub_modules": [
+        {
+          "sub_module_name": "Night Sky Wonders",
+          "tags": {
+            "glowing full moon": "glowing full moon",
+            "silver crescent moon": "silver crescent moon",
+            "passing shooting stars": "passing shooting stars",
+            "milky way galaxy": "milky way galaxy",
+            "bright distant planets": "bright distant planets",
+            "passing comets": "passing comets"
+          }
+        },
+        {
+          "sub_module_name": "Atmospheric Phenomena",
+          "tags": {
+            "glowing sun halos": "glowing sun halos",
+            "rare lunar eclipses": "rare lunar eclipses",
+            "sparkling diamond dust": "sparkling diamond dust",
+            "vivid alpenglow on peaks": "vivid alpenglow on peaks",
+            "shimmering heat mirage": "shimmering heat mirage",
+            "glowing sea bioluminescence": "glowing sea bioluminescence"
+          }
+        }
+      ]
+    }
+  ]
+}

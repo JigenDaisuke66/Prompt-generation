@@ -1,0 +1,209 @@
+{
+  "project_name": "Fantasy Character Design Lexicon",
+  "module_groups": [
+    {
+      "module_name": "Profession and Identity",
+      "is_open": true,
+      "sub_modules": [
+        {
+          "sub_module_name": "Fantasy Races",
+          "tags": {
+            "high elf": "high elf",
+            "strong forest-folk": "strong forest-folk",
+            "dwarven artisan": "dwarven artisan",
+            "mysterious dragon-kin": "mysterious dragon-kin",
+            "cheerful forest gnome": "cheerful forest gnome",
+            "agile halfling": "agile halfling",
+            "enchanted forest spirit": "enchanted forest spirit",
+            "deep sea merfolk": "deep sea merfolk",
+            "magical tiefling": "magical tiefling",
+            "centaur explorer": "centaur explorer",
+            "forest fairy": "forest fairy",
+            "friendly shape-shifter": "friendly shape-shifter",
+            "gentle giant": "gentle giant",
+            "clever woodland creature": "clever woodland creature",
+            "mystical forest keeper": "mystical forest keeper",
+            "sea traveler": "sea traveler",
+            "dryad": "dryad",
+            "doppelganger": "doppelganger",
+            "kind-hearted titan": "kind-hearted titan",
+            "magical stone guardian": "magical stone guardian"
+          }
+        },
+        {
+          "sub_module_name": "Classic Roles",
+          "tags": {
+            "elemental mage": "elemental mage",
+            "noble paladin": "noble paladin",
+            "forest ranger": "forest ranger",
+            "mysterious scout": "mysterious scout",
+            "nature keeper": "nature keeper",
+            "bard with a lute": "bard with a lute",
+            "energetic warrior": "energetic warrior",
+            "holy healer": "holy healer",
+            "nature druid": "nature druid",
+            "inventive alchemist": "inventive alchemist",
+            "summoner of friendly beasts": "summoner of friendly beasts",
+            "focused monk": "focused monk",
+            "spellblade": "spellblade",
+            "beastmaster": "beastmaster",
+            "illusionist": "illusionist",
+            "time-traveling scholar": "time-traveling scholar",
+            "wise judge": "wise judge",
+            "herbologist": "herbologist",
+            "adventurous explorer": "adventurous explorer",
+            "artificer": "artificer"
+          }
+        }
+      ]
+    },
+    {
+      "module_name": "Appearance and Gear",
+      "is_open": true,
+      "sub_modules": [
+        {
+          "sub_module_name": "Clothing and Accessories",
+          "tags": {
+            "flowing silk robes": "flowing silk robes",
+            "leather explorer coat": "leather explorer coat",
+            "ornate noble armor": "ornate noble armor",
+            "comfortable linen cloak": "comfortable linen cloak",
+            "hooded mantle": "hooded mantle",
+            "leather adventure gear": "leather adventure gear",
+            "durable plate gauntlets": "durable plate gauntlets",
+            "mysterious ceremonial mask": "mysterious ceremonial mask",
+            "light mithril chainmail": "light mithril chainmail",
+            "jeweled crown": "jeweled crown",
+            "simple tunic": "tunic",
+            "elegant lace dress": "elegant lace dress",
+            "bird-inspired masquerade mask": "bird-inspired masquerade mask",
+            "feathered headdress": "feathered headdress",
+            "traditional decorative armor": "traditional decorative armor",
+            "fur-lined mantle": "fur-lined mantle",
+            "stylish corset": "stylish corset",
+            "sturdy traveling boots": "sturdy traveling boots"
+          }
+        },
+        {
+          "sub_module_name": "Equipment and Items",
+          "tags": {
+            "glowing crystal staff": "glowing crystal staff",
+            "ceremonial greatsword": "ceremonial greatsword",
+            "enchanted runic shield": "enchanted runic shield",
+            "intricate mechanical crossbow": "intricate mechanical crossbow",
+            "elegant decorative daggers": "elegant decorative daggers",
+            "floating spellbook": "floating spellbook",
+            "ornate belt": "ornate belt",
+            "heavy decorative halberd": "heavy decorative halberd",
+            "magic potion vials on belt": "magic potion vials on belt",
+            "glowing magic amulet": "glowing magic amulet",
+            "quiver with glowing arrows": "quiver with glowing arrows",
+            "star-shaped lantern": "star-shaped lantern",
+            "curved ceremonial blade": "curved ceremonial blade",
+            "ornamental mace": "ornamental mace",
+            "decorative throwing axes": "decorative throwing axes",
+            "elegant magic wand": "elegant magic wand",
+            "decorative hand wraps": "decorative hand wraps",
+            "tarot cards": "tarot cards",
+            "ancient parchment scrolls": "ancient parchment scrolls",
+            "enchanted glowing ring": "enchanted glowing ring"
+          }
+        }
+      ]
+    },
+    {
+      "module_name": "Facial and Physical Traits",
+      "is_open": true,
+      "sub_modules": [
+        {
+          "sub_module_name": "Facial Details",
+          "tags": {
+            "glowing eyes": "glowing eyes",
+            "faint artistic markings": "faint artistic markings",
+            "pointy elf ears": "pointy elf ears",
+            "magical horns": "magical horns",
+            "bright friendly smile": "bright friendly smile",
+            "heterochromia eyes": "heterochromia eyes",
+            "blindfold": "blindfold",
+            "kind face": "kind face",
+            "tribal patterns": "tribal patterns",
+            "third eye on forehead": "third eye on forehead",
+            "mechanical magic eye": "mechanical magic eye",
+            "glowing patterns": "glowing patterns",
+            "shimmering scales": "shimmering scales",
+            "bright eyes": "bright eyes",
+            "shining golden hair": "shining golden hair",
+            "intense gaze": "intense gaze",
+            "glowing runic tattoos": "glowing runic tattoos"
+          }
+        },
+        {
+          "sub_module_name": "Physical Traits",
+          "tags": {
+            "majestic wings": "majestic wings",
+            "shimmering skin": "shimmering skin",
+            "magical prosthetic limb": "magical prosthetic limb",
+            "holy halo": "holy halo",
+            "fluffy tail": "fluffy tail",
+            "surrounded by sparkling mist": "surrounded by sparkling mist",
+            "bright glowing hair": "bright glowing hair",
+            "translucent ethereal body": "translucent ethereal body",
+            "multiple arms": "multiple arms",
+            "whimsical floating accessories": "whimsical floating accessories",
+            "crystal growths": "crystal growths",
+            "covered in floral vines": "covered in floral vines",
+            "glowing metallic skin": "glowing metallic skin",
+            "gills": "gills",
+            "floating runic circles": "floating runic circles"
+          }
+        }
+      ]
+    },
+    {
+      "module_name": "Action and Pose",
+      "is_open": true,
+      "sub_modules": [
+        {
+          "sub_module_name": "Dynamic Poses",
+          "tags": {
+            "chanting a spell": "chanting a spell",
+            "practicing sword forms": "practicing sword forms",
+            "aiming a bow": "aiming a bow",
+            "raising shield to protect": "raising shield to protect",
+            "leaping from above": "leaping from above",
+            "swinging staff to cast light": "swinging staff to cast light",
+            "agile movement": "agile movement",
+            "graceful dodging": "graceful dodging",
+            "spinning gracefully": "performing a spinning move",
+            "graceful posture": "graceful posture",
+            "kneeling to cast healing magic": "kneeling to cast healing magic",
+            "preparing a potion": "preparing a potion",
+            "interacting with a familiar": "interacting with a familiar",
+            "guiding a magical beam": "guiding a magical beam",
+            "stealthy movement": "stealthy movement"
+          }
+        },
+        {
+          "sub_module_name": "Daily Life and Stillness",
+          "tags": {
+            "sitting on a throne": "sitting on a throne",
+            "levitating in mid-air meditating": "levitating in mid-air meditating",
+            "reading an ancient grimoire": "reading an ancient grimoire",
+            "resting in a cozy corner": "resting in a cozy corner",
+            "petting a magical familiar": "petting a magical familiar",
+            "maintaining a weapon": "maintaining a weapon",
+            "relaxing": "relaxing",
+            "gazing into a crystal ball": "gazing into a crystal ball",
+            "shuffling a deck of cards": "shuffling a deck of cards",
+            "warming hands by the campfire": "warming hands by the campfire",
+            "holding a lantern": "holding a lantern",
+            "bowing gracefully": "bowing gracefully",
+            "sitting cross-legged": "sitting cross-legged",
+            "polishing gear": "polishing gear",
+            "writing on parchment with a quill": "writing on parchment with a quill"
+          }
+        }
+      ]
+    }
+  ]
+}

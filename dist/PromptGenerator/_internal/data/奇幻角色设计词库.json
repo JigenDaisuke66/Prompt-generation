@@ -1,0 +1,209 @@
+{
+  "project_name": "奇幻角色设计通用词库",
+  "module_groups": [
+    {
+      "module_name": "职业与身份",
+      "is_open": true,
+      "sub_modules": [
+        {
+          "sub_module_name": "奇幻种族",
+          "tags": {
+            "高等精灵": "high elf",
+            "强壮森林族人": "strong forest-folk",
+            "矮人工匠": "dwarven artisan",
+            "神秘龙裔": "mysterious dragon-kin",
+            "欢乐森林侏儒": "cheerful forest gnome",
+            "敏捷半身人": "agile halfling",
+            "被施法森林精灵": "enchanted forest spirit",
+            "深海人鱼": "deep sea merfolk",
+            "魔法提夫林": "magical tiefling",
+            "半人马探险家": "centaur explorer",
+            "森林妖精": "forest fairy",
+            "友善变形者": "friendly shape-shifter",
+            "温柔巨人": "gentle giant",
+            "聪明林地生物": "clever woodland creature",
+            "神秘森林守护者": "mystical forest keeper",
+            "海洋旅者": "sea traveler",
+            "树精": "dryad",
+            "变形怪": "doppelganger",
+            "心地善良的泰坦": "kind-hearted titan",
+            "魔法石像守护者": "magical stone guardian"
+          }
+        },
+        {
+          "sub_module_name": "经典职业",
+          "tags": {
+            "元素法师": "elemental mage",
+            "高贵圣骑士": "noble paladin",
+            "森林游侠": "forest ranger",
+            "神秘侦察兵": "mysterious scout",
+            "自然守护者": "nature keeper",
+            "背着鲁特琴的诗人": "bard with a lute",
+            "精力充沛的战士": "energetic warrior",
+            "神圣治愈者": "holy healer",
+            "自然德鲁伊": "nature druid",
+            "足智多谋的炼金术士": "inventive alchemist",
+            "友善野兽召唤师": "summoner of friendly beasts",
+            "专注僧侣": "focused monk",
+            "魔剑士": "spellblade",
+            "驯兽师": "beastmaster",
+            "幻术师": "illusionist",
+            "时空学者": "time-traveling scholar",
+            "睿智法官": "wise judge",
+            "草药学家": "herbologist",
+            "冒险探险家": "adventurous explorer",
+            "机工士": "artificer"
+          }
+        }
+      ]
+    },
+    {
+      "module_name": "外观与装备",
+      "is_open": true,
+      "sub_modules": [
+        {
+          "sub_module_name": "服饰与配饰",
+          "tags": {
+            "飘逸丝绸长袍": "flowing silk robes",
+            "皮革探险外套": "leather explorer coat",
+            "华丽贵族铠甲": "ornate noble armor",
+            "舒适亚麻斗篷": "comfortable linen cloak",
+            "带兜帽披风": "hooded mantle",
+            "皮革冒险装备": "leather adventure gear",
+            "耐用板甲护手": "durable plate gauntlets",
+            "神秘仪式面具": "mysterious ceremonial mask",
+            "轻盈秘银锁子甲": "light mithril chainmail",
+            "宝石王冠": "jeweled crown",
+            "简约长袍": "tunic",
+            "优雅蕾丝裙": "elegant lace dress",
+            "鸟类元素舞会面具": "bird-inspired masquerade mask",
+            "羽毛头饰": "feathered headdress",
+            "传统装饰性铠甲": "traditional decorative armor",
+            "毛边披风": "fur-lined mantle",
+            "时尚束腰": "stylish corset",
+            "结实旅行靴": "sturdy traveling boots"
+          }
+        },
+        {
+          "sub_module_name": "武器与物品",
+          "tags": {
+            "发光水晶法杖": "glowing crystal staff",
+            "仪式大剑": "ceremonial greatsword",
+            "附魔符文盾牌": "enchanted runic shield",
+            "精巧机械弩": "intricate mechanical crossbow",
+            "优雅装饰短剑": "elegant decorative daggers",
+            "悬浮魔法书": "floating spellbook",
+            "华丽腰带": "ornate belt",
+            "重型装饰戟": "heavy decorative halberd",
+            "腰间魔法药水瓶": "magic potion vials on belt",
+            "发光魔法护身符": "glowing magic amulet",
+            "带发光箭矢的箭袋": "quiver with glowing arrows",
+            "星形灯笼": "star-shaped lantern",
+            "弯曲仪式刀刃": "curved ceremonial blade",
+            "装饰性权杖": "ornamental mace",
+            "装饰性飞斧": "decorative throwing axes",
+            "优雅魔法棒": "elegant magic wand",
+            "装饰性手部缠带": "decorative hand wraps",
+            "塔罗牌": "tarot cards",
+            "古老羊皮纸卷轴": "ancient parchment scrolls",
+            "附魔发光戒指": "enchanted glowing ring"
+          }
+        }
+      ]
+    },
+    {
+      "module_name": "容貌与身体特征",
+      "is_open": true,
+      "sub_modules": [
+        {
+          "sub_module_name": "面部细节",
+          "tags": {
+            "发光的眼睛": "glowing eyes",
+            "淡雅艺术纹路": "faint artistic markings",
+            "尖尖的精灵耳朵": "pointy elf ears",
+            "魔法角": "magical horns",
+            "灿烂友善笑容": "bright friendly smile",
+            "异色瞳": "heterochromia eyes",
+            "眼罩": "blindfold",
+            "亲切脸庞": "kind face",
+            "部落图腾图案": "tribal patterns",
+            "前额第三只眼": "third eye on forehead",
+            "机械魔法眼": "mechanical magic eye",
+            "发光图案": "glowing patterns",
+            "闪烁鳞片": "shimmering scales",
+            "明亮双眸": "bright eyes",
+            "闪耀金色秀发": "shining golden hair",
+            "专注凝视": "intense gaze",
+            "发光符文纹身": "glowing runic tattoos"
+          }
+        },
+        {
+          "sub_module_name": "身体特征",
+          "tags": {
+            "雄伟翅膀": "majestic wings",
+            "闪烁皮肤": "shimmering skin",
+            "魔法义肢": "magical prosthetic limb",
+            "圣洁光环": "holy halo",
+            "毛茸茸尾巴": "fluffy tail",
+            "被闪耀雾气围绕": "surrounded by sparkling mist",
+            "明亮发光头发": "bright glowing hair",
+            "半透明空灵躯体": "translucent ethereal body",
+            "多条手臂": "multiple arms",
+            "奇思妙想悬浮装饰": "whimsical floating accessories",
+            "水晶生长": "crystal growths",
+            "覆盖花卉藤蔓": "covered in floral vines",
+            "发光金属皮肤": "glowing metallic skin",
+            "鱼鳃": "gills",
+            "悬浮符文圆环": "floating runic circles"
+          }
+        }
+      ]
+    },
+    {
+      "module_name": "动态与姿势",
+      "is_open": true,
+      "sub_modules": [
+        {
+          "sub_module_name": "战斗姿态",
+          "tags": {
+            "吟唱咒语": "chanting a spell",
+            "练习剑术": "practicing sword forms",
+            "瞄准弓箭": "aiming a bow",
+            "举盾防御": "raising shield to protect",
+            "从高处跃下": "leaping from above",
+            "挥舞法杖施放光芒": "swinging staff to cast light",
+            "敏捷移动": "agile movement",
+            "优雅闪避": "graceful dodging",
+            "优雅旋转": "performing a spinning move",
+            "优雅站姿": "graceful posture",
+            "跪地施展治愈魔法": "kneeling to cast healing magic",
+            "准备药水": "preparing a potion",
+            "与魔宠互动": "interacting with a familiar",
+            "引导魔法光束": "guiding a magical beam",
+            "潜行移动": "stealthy movement"
+          }
+        },
+        {
+          "sub_module_name": "日常与静止",
+          "tags": {
+            "坐在王座上": "sitting on a throne",
+            "悬浮在空中冥想": "levitating in mid-air meditating",
+            "阅读古老魔法书": "reading an ancient grimoire",
+            "在舒适角落休息": "resting in a cozy corner",
+            "抚摸魔法宠物": "petting a magical familiar",
+            "保养武器": "maintaining a weapon",
+            "放松休息": "relaxing",
+            "凝视水晶球": "gazing into a crystal ball",
+            "洗牌": "shuffling a deck of cards",
+            "在篝火旁取暖": "warming hands by the campfire",
+            "手持灯笼": "holding a lantern",
+            "优雅鞠躬": "bowing gracefully",
+            "盘腿而坐": "sitting cross-legged",
+            "擦拭装备": "polishing gear",
+            "用羽毛笔在羊皮纸上书写": "writing on parchment with a quill"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "project_name": "ファンタジーキャラクターデザイン語彙集",
+  "module_groups": [
+    {
+      "module_name": "職業とアイデンティティ",
+      "is_open": true,
+      "sub_modules": [
+        {
+          "sub_module_name": "ファンタジー種族",
+          "tags": {
+            "ハイエルフ": "high elf",
+            "屈強な森の民": "strong forest-folk",
+            "ドワーフの職人": "dwarven artisan",
+            "神秘的な竜の末裔": "mysterious dragon-kin",
+            "陽気な森のノーム": "cheerful forest gnome",
+            "俊敏なハーフリング": "agile halfling",
+            "魔法の森の精霊": "enchanted forest spirit",
+            "深海のマーフォーク": "deep sea merfolk",
+            "魔法のティーフリング": "magical tiefling",
+            "ケンタウルスの探検家": "centaur explorer",
+            "森の妖精": "forest fairy",
+            "友好的なシェイプシフター": "friendly shape-shifter",
+            "穏やかな巨人": "gentle giant",
+            "賢い森の生き物": "clever woodland creature",
+            "神秘的な森の守護者": "mystical forest keeper",
+            "海の旅人": "sea traveler",
+            "ドライアド": "dryad",
+            "ドッペルゲンガー": "doppelganger",
+            "心優しきタイタン": "kind-hearted titan",
+            "魔法の石の守護者": "magical stone guardian"
+          }
+        },
+        {
+          "sub_module_name": "クラシックな役割",
+          "tags": {
+            "元素の魔術師": "elemental mage",
+            "高貴なパラディン": "noble paladin",
+            "森のレンジャー": "forest ranger",
+            "謎多きスカウト": "mysterious scout",
+            "自然の守護者": "nature keeper",
+            "リュートを背負った吟遊詩人": "bard with a lute",
+            "エネルギッシュな戦士": "energetic warrior",
+            "聖なるヒーラー": "holy healer",
+            "自然のドルイド": "nature druid",
+            "創意工夫する錬金術師": "inventive alchemist",
+            "友好的な獣の召喚師": "summoner of friendly beasts",
+            "精神を研ぎ澄ます僧侶": "focused monk",
+            "魔法剣士": "spellblade",
+            "ビーストマスター": "beastmaster",
+            "幻術師": "illusionist",
+            "時を旅する学者": "time-traveling scholar",
+            "賢明な判事": "wise judge",
+            "薬草学者": "herbologist",
+            "冒険好きな探検家": "adventurous explorer",
+            "アーティフィサー": "artificer"
+          }
+        }
+      ]
+    },
+    {
+      "module_name": "外見と装備",
+      "is_open": true,
+      "sub_modules": [
+        {
+          "sub_module_name": "服装とアクセサリー",
+          "tags": {
+            "流れるようなシルクのローブ": "flowing silk robes",
+            "探検家のレザーコート": "leather explorer coat",
+            "豪華な貴族の鎧": "ornate noble armor",
+            "快適な麻のクローク": "comfortable linen cloak",
+            "フード付きのマント": "hooded mantle",
+            "冒険用のレザー装備": "leather adventure gear",
+            "耐久性のあるプレートガントレット": "durable plate gauntlets",
+            "謎の儀式用マスク": "mysterious ceremonial mask",
+            "軽量なミスリルの鎖帷子": "light mithril chainmail",
+            "宝石の王冠": "jeweled crown",
+            "シンプルなチュニック": "tunic",
+            "優雅なレースドレス": "elegant lace dress",
+            "鳥を模した仮面舞踏会マスク": "bird-inspired masquerade mask",
+            "羽のヘッドドレス": "feathered headdress",
+            "伝統的な装飾鎧": "traditional decorative armor",
+            "毛皮付きのマント": "fur-lined mantle",
+            "スタイリッシュなコルセット": "stylish corset",
+            "丈夫なトラベルブーツ": "sturdy traveling boots"
+          }
+        },
+        {
+          "sub_module_name": "武器とアイテム",
+          "tags": {
+            "光り輝くクリスタルの杖": "glowing crystal staff",
+            "儀式用の大剣": "ceremonial greatsword",
+            "魔法のルーン盾": "enchanted runic shield",
+            "精巧な機械式クロスボウ": "intricate mechanical crossbow",
+            "優雅な装飾ダガー": "elegant decorative daggers",
+            "浮遊する魔導書": "floating spellbook",
+            "装飾的なベルト": "ornate belt",
+            "重厚な装飾ハルバード": "heavy decorative halberd",
+            "腰に付けた魔法薬の小瓶": "magic potion vials on belt",
+            "光り輝く魔法のアミュレット": "glowing magic amulet",
+            "光る矢が入った矢筒": "quiver with glowing arrows",
+            "星型のランタン": "star-shaped lantern",
+            "湾曲した儀式用ブレード": "curved ceremonial blade",
+            "装飾的なメイス": "ornamental mace",
+            "装飾用の投擲斧": "decorative throwing axes",
+            "エレガントな魔法の杖": "elegant magic wand",
+            "装飾的なハンドラップ": "decorative hand wraps",
+            "タロットカード": "tarot cards",
+            "古の羊皮紙の巻物": "ancient parchment scrolls",
+            "魔法に満ちた光る指輪": "enchanted glowing ring"
+          }
+        }
+      ]
+    },
+    {
+      "module_name": "容姿と身体的特徴",
+      "is_open": true,
+      "sub_modules": [
+        {
+          "sub_module_name": "顔のディテール",
+          "tags": {
+            "輝く瞳": "glowing eyes",
+            "淡い芸術的な模様": "faint artistic markings",
+            "尖ったエルフの耳": "pointy elf ears",
+            "魔法の角": "magical horns",
+            "明るく友好的な笑顔": "bright friendly smile",
+            "オッドアイ": "heterochromia eyes",
+            "目隠し": "blindfold",
+            "優しい表情": "kind face",
+            "部族の模様": "tribal patterns",
+            "額の第三の目": "third eye on forehead",
+            "機械仕掛けの魔法の眼": "mechanical magic eye",
+            "発光パターン": "glowing patterns",
+            "きらめく鱗": "shimmering scales",
+            "明るい瞳": "bright eyes",
+            "輝く黄金の髪": "shining golden hair",
+            "鋭い眼差し": "intense gaze",
+            "光るルーンタトゥー": "glowing runic tattoos"
+          }
+        },
+        {
+          "sub_module_name": "身体的特徴",
+          "tags": {
+            "雄大な翼": "majestic wings",
+            "きらめく肌": "shimmering skin",
+            "魔法の義肢": "magical prosthetic limb",
+            "聖なる光輪": "holy halo",
+            "ふわふわの尻尾": "fluffy tail",
+            "輝く霧に包まれている": "surrounded by sparkling mist",
+            "明るく輝く髪": "bright glowing hair",
+            "半透明な空飛ぶ躯体": "translucent ethereal body",
+            "複数の腕": "multiple arms",
+            "不思議な浮遊アクセサリー": "whimsical floating accessories",
+            "結晶の成長": "crystal growths",
+            "花や蔓で覆われている": "covered in floral vines",
+            "発光する金属肌": "glowing metallic skin",
+            "魚の鰓": "gills",
+            "浮遊するルーンの輪": "floating runic circles"
+          }
+        }
+      ]
+    },
+    {
+      "module_name": "アクションとポーズ",
+      "is_open": true,
+      "sub_modules": [
+        {
+          "sub_module_name": "戦闘ポーズ",
+          "tags": {
+            "呪文を詠唱する": "chanting a spell",
+            "剣術の練習": "practicing sword forms",
+            "弓を構える": "aiming a bow",
+            "盾を掲げて防御する": "raising shield to protect",
+            "高所から飛び降りる": "leaping from above",
+            "杖を振って光を放つ": "swinging staff to cast light",
+            "機敏な動き": "agile movement",
+            "優雅な回避": "graceful dodging",
+            "優雅な回転": "performing a spinning move",
+            "優雅なポーズ": "graceful posture",
+            "膝をついて癒しの魔法をかける": "kneeling to cast healing magic",
+            "ポーションを準備する": "preparing a potion",
+            "使い魔と触れ合う": "interacting with a familiar",
+            "魔法の光線を導く": "guiding a magical beam",
+            "忍び足で移動する": "stealthy movement"
+          }
+        },
+        {
+          "sub_module_name": "日常生活と静止",
+          "tags": {
+            "玉座に座る": "sitting on a throne",
+            "空中で瞑想する": "levitating in mid-air meditating",
+            "古い魔導書を読む": "reading an ancient grimoire",
+            "居心地の良い場所で休む": "resting in a cozy corner",
+            "使い魔を可愛がる": "petting a magical familiar",
+            "武器をメンテナンスする": "maintaining a weapon",
+            "リラックスする": "relaxing",
+            "水晶玉を見つめる": "gazing into a crystal ball",
+            "カードを切る": "shuffling a deck of cards",
+            "焚き火で暖を取る": "warming hands by the campfire",
+            "ランタンを持つ": "holding a lantern",
+            "優雅に一礼する": "bowing gracefully",
+            "あぐらをかく": "sitting cross-legged",
+            "装備を磨く": "polishing gear",
+            "羽ペンで羊皮紙に書く": "writing on parchment with a quill"
+          }
+        }
+      ]
+    }
+  ]
+}

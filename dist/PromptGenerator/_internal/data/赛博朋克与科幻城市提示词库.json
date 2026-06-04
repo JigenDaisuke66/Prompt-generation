@@ -1,0 +1,204 @@
+{
+  "project_name": "赛博朋克科幻都市词库（全年龄扩展版）",
+  "module_groups": [
+    {
+      "module_name": "城市元素",
+      "is_open": true,
+      "sub_modules": [
+        {
+          "sub_module_name": "建筑结构",
+          "tags": {
+            "高耸摩天大楼": "towering skyscrapers",
+            "错综复杂的空中走廊": "intricate skybridges",
+            "拥挤的底层区域": "crowded lower-level sectors",
+            "巨型企业总部": "megacorp headquarters",
+            "密集胶囊公寓": "dense capsule apartments",
+            "废弃工业工厂": "abandoned industrial factories",
+            "地下贸易中心": "underground trading hubs",
+            "霓虹闪烁的商业街": "neon-lit commercial streets",
+            "巨大穹顶生态园": "massive biodome",
+            "垂直水培农场": "vertical hydroponic farms",
+            "钢铁与玻璃金字塔": "steel and glass pyramids",
+            "悬浮太空电梯基站": "hovering space elevator terminal",
+            "杂乱集装箱房屋": "chaotic container housing",
+            "戒备森严的政府大楼": "secured government buildings",
+            "废墟上的临时建筑": "makeshift structures built on ruins",
+            "巨型信号发射塔": "giant signal transmission towers",
+            "半露天空中花园": "semi-open hanging gardens",
+            "数据中心散热塔": "data center cooling towers"
+          }
+        },
+        {
+          "sub_module_name": "交通与载具",
+          "tags": {
+            "穿梭飞行汽车": "flying cars",
+            "磁悬浮单轨列车": "maglev monorail",
+            "重型运输飞船": "heavy transport ship",
+            "锈迹斑斑的悬浮摩托": "rusty hoverbike",
+            "自动驾驶出租车": "autonomous taxis",
+            "蓝色尾焰的警用巡逻艇": "security patrol boats with blue thruster flames",
+            "巨型空中巴士": "massive aerobuses",
+            "重型工程车辆": "heavy duty construction vehicles",
+            "成群的物流无人机": "swarms of delivery drones",
+            "穿透云层的轨道飞行器": "orbital shuttles piercing the clouds",
+            "拥挤的赛博地铁": "crowded cyber-subways",
+            "个人喷气背包": "personal jetpacks",
+            "冒着黑烟的改装卡车": "modified trucks belching dark smoke",
+            "机器人运输车": "robotic transport vans",
+            "悬浮滑板": "hoverboards",
+            "天台上的私人穿梭机": "private shuttles parked on rooftops",
+            "水上悬浮巴士": "hovering water buses",
+            "自动货运列车": "automated cargo trains"
+          }
+        }
+      ]
+    },
+    {
+      "module_name": "氛围与细节",
+      "is_open": true,
+      "sub_modules": [
+        {
+          "sub_module_name": "赛博光影",
+          "tags": {
+            "耀眼霓虹招牌": "blinding neon signs",
+            "巨型全息广告": "giant holographic advertisements",
+            "冷色调路灯": "cold street lights",
+            "闪烁的电路火花": "flickering circuit sparks",
+            "穿透雾霾的探照灯": "searchlight beams piercing through smog",
+            "闪烁警示灯": "flashing warning lights",
+            "屏幕散发的幽蓝光芒": "eerie blue glow from screens",
+            "飞船尾部的等离子喷流": "plasma jets from ship exhaust",
+            "雨水反射的彩色光斑": "colorful light spots reflected in rain",
+            "暗巷中的荧光街头艺术": "fluorescent street art in dark alleys",
+            "VR接口的微弱光芒": "faint glow of VR interfaces",
+            "故障艺术屏幕": "glitching art screens",
+            "明亮的激光扫描仪": "bright laser scanners",
+            "义眼发出的柔光": "gentle glow from cybernetic optics",
+            "地下室昏暗白炽灯": "dim incandescent lights in basements",
+            "全息交通指示牌": "holographic traffic signs",
+            "动态全息水母装饰": "dynamic holographic jellyfish decor",
+            "地面投影导航线": "projected ground navigation lines"
+          }
+        },
+        {
+          "sub_module_name": "环境质感",
+          "tags": {
+            "积水反光的潮湿街道": "puddle-reflecting wet streets",
+            "浓厚工业雾霾": "thick industrial smog",
+            "缠绕的废弃电缆": "tangled abandoned cables",
+            "涂鸦装饰巷道": "art-covered alleys",
+            "成山的电子垃圾": "mountains of electronic waste",
+            "生锈金属管道": "rusty metal pipes",
+            "随风飘荡的塑料废弃物": "plastic trash blowing in the wind",
+            "连绵不断的雨水": "incessant rain",
+            "长满青苔的混凝土": "damp and mossy concrete",
+            "刺鼻的化学废气": "pungent chemical exhausts",
+            "充满杂音的电台广播": "static-filled radio broadcasts",
+            "雪花屏的老旧电视": "old TVs with static snow",
+            "满是油污的机械零件": "oil-stained mechanical parts",
+            "破裂漏水的水管": "cracked and leaking water pipes",
+            "高科技六边形纹理": "high-tech hexagonal textures",
+            "冒着蒸汽的通风井": "steaming ventilation shafts",
+            "磨损的金属墙面": "worn-out metallic wall textures",
+            "覆盖灰尘的太阳能板": "dusty solar panels"
+          }
+        }
+      ]
+    },
+    {
+      "module_name": "角色与市民",
+      "is_open": true,
+      "sub_modules": [
+        {
+          "sub_module_name": "原型与身份",
+          "tags": {
+            "自由职业黑客": "freelance netrunners",
+            "雄心勃勃的企业高管": "ambitious corporate executives",
+            "植入义体的街头艺人": "augmented street performers",
+            "地下义体医生": "underground cyber-mechanics",
+            "机器人安保": "robotic security guards",
+            "数据检索专家": "data retrieval specialists",
+            "精通科技的探险家": "tech-savvy explorers",
+            "虚拟现实爱好者": "virtual reality enthusiasts",
+            "快递无人机操控员": "drone delivery operators",
+            "全息时尚博主": "holographic fashion bloggers"
+          }
+        },
+        {
+          "sub_module_name": "组织与社会",
+          "tags": {
+            "全能巨型企业": "omnipotent mega-corporations",
+            "街头赛车团队": "street racing crews",
+            "自然保护协会": "nature preservation societies",
+            "地下黑客组织": "underground hacker collectives",
+            "企业安保部队": "corporate security forces",
+            "神秘的商会": "secretive merchant guilds",
+            "机器人维权联盟": "robot rights union",
+            "虚拟空间建设者": "virtual space builders"
+          }
+        }
+      ]
+    },
+    {
+      "module_name": "义体与科技",
+      "is_open": true,
+      "sub_modules": [
+        {
+          "sub_module_name": "身体改造",
+          "tags": {
+            "镀铬机械手臂": "chrome-plated cybernetic arms",
+            "发光的神经接口": "glowing neural link ports",
+            "合成光学植入物": "synthetic optical implants",
+            "机械增强脊柱": "augmented mechanical spines",
+            "声带合成器": "vocal cord synthesizers",
+            "可伸缩多功能工具": "retractable multi-tools",
+            "内置乐器": "built-in musical instruments",
+            "智能可穿戴皮肤": "smart wearable skin"
+          }
+        },
+        {
+          "sub_module_name": "软硬件",
+          "tags": {
+            "便携式网络终端": "portable cyberdecks",
+            "企业级防火墙程序": "enterprise-grade firewall programs",
+            "拥有好奇心的人工智能": "curious artificial intelligence",
+            "全息记忆芯片": "holographic memory chips",
+            "稀有VR模拟程序": "rare virtual reality simulations",
+            "量子处理节点": "quantum processing nodes",
+            "个人便携数据仓": "personal data pods"
+          }
+        }
+      ]
+    },
+    {
+      "module_name": "日常生活与娱乐",
+      "is_open": true,
+      "sub_modules": [
+        {
+          "sub_module_name": "休闲活动",
+          "tags": {
+            "全息街机游戏": "holographic arcade games",
+            "零重力运动场": "zero-gravity sports arenas",
+            "电子宠物公园": "cyber-pet parks",
+            "合成器音乐会": "synth-music concerts",
+            "虚拟现实咖啡馆": "virtual reality cafes",
+            "机器人伙伴展": "robotic companion shows",
+            "空中瑜伽馆": "aerial yoga studios"
+          }
+        },
+        {
+          "sub_module_name": "赛博时尚",
+          "tags": {
+            "发光LED夹克": "glowing LED jackets",
+            "全息护目镜": "holographic visors",
+            "感应式智能布料": "reactive smart fabrics",
+            "金属厚底靴": "metallic platform boots",
+            "霓虹染发剂": "neon-tinted hair dyes",
+            "数字显示运动鞋": "digital display sneakers",
+            "可变色连帽衫": "color-changing hoodies"
+          }
+        }
+      ]
+    }
+  ]
+}
