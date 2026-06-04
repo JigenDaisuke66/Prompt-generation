@@ -3,7 +3,21 @@
 ## Screenshot
 <img width="1184" height="815" alt="image" src="https://github.com/user-attachments/assets/58dd6a8d-432f-4e9c-9c2c-f794bc6775df" />
 <img width="1146" height="803" alt="image" src="https://github.com/user-attachments/assets/0c20b248-445a-4c0b-a27c-f322af01c143" />
+<img width="1186" height="819" alt="动画" src="https://github.com/user-attachments/assets/f15d4bf4-ff56-4e63-8b3b-eb14ff3cee9c" />
 
+# Prompt-generation 🎨
+
+**Tired of managing your AI prompts (Stable Diffusion, Midjourney) in messy text files or Excel sheets?** Prompt-generation is a lightweight, portable desktop tool that turns prompt management into a simple, visual "click-and-play" experience. No coding, no complicated setup, just a clean UI to organize your ideas.
+
+### 🚀 Quick Start (No Installation Required)
+
+1. **Download & Run:** Grab the latest `.zip` file from the [Releases](https://github.com/JigenDaisuke66/Prompt-generation/releases/latest) page. Extract it, and double-click `PromptGenerator.exe`.
+2. **Click to Build:** Browse the categories and simply click tags to add them to your prompt. 
+   *(Need more weight? Click the `⚙` icon next to a tag to easily adjust it to `(tag:1.2)`).*
+3. **Type Custom Ideas:** Have a temporary idea? Type it directly into the "Custom Prompts" text box at the bottom.
+4. **Copy & Draw:** Click **Generate Prompt**, and your clean English prompt is instantly copied and ready to be pasted into your AI generator!
+
+> **💡 Pro Tip (Make it your own!):** > Press `Ctrl+E` to open the **Visual Library Editor**. You can easily add your own categories and favorite tags in a clean table format—absolutely no text file or JSON editing required!
 
 
 🚀 **A data-driven, highly modular desktop application for managing and generating AI prompts.**
