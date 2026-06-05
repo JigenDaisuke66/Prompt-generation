@@ -14,9 +14,12 @@
 | 🇺🇸 English | [README](README.md) |
 | 🇨🇳 简体中文 | [README_CN.md](README_CN.md) |
 | 🇹🇼 繁體中文 | [README_TW.md](README_TW.md) |
-| 🇯🇵 日本語 | [README_JP.md](README_JP.md) |
 | 🇩🇪 Deutsch | [README_DE.md](README_DE.md) |
+| 🇯🇵 日本語 | [README_JP.md](README_JP.md) |
 | 🇷🇺 Русский | [README_RU.md](README_RU.md) |
+
+
+
 # Prompt-generation 🎨 Quick Start Guide
 
 Prompt-generation is a lightweight desktop tool designed for AI image generation workflows (Stable Diffusion, Midjourney, FLUX, and more).
