@@ -1,91 +1,93 @@
-# Prompt-generation 🎨 クイックスタートガイド
+# Prompt-generation 🎨 Kurzanleitung
 
-Prompt-generation は、Stable Diffusion、Midjourney、FLUX などの AI画像生成ツール向けに開発された軽量デスクトップアプリです。
+Prompt-generation ist ein leichtgewichtiges Desktop-Tool für KI-Bildgeneratoren wie Stable Diffusion, Midjourney, FLUX und ähnliche Plattformen.
 
-複雑なテキストファイルやスプレッドシートの代わりに、直感的なGUIでプロンプトを管理・編集・生成できます。
+Statt unübersichtlicher Textdateien oder Tabellen bietet es eine intuitive Benutzeroberfläche zum Verwalten, Organisieren und Erstellen von Prompts – ganz ohne Programmierkenntnisse.
 
-## 🚀 はじめに
+## 🚀 Erste Schritte
 
-### ステップ 1: ダウンロードと起動
+### Schritt 1: Herunterladen und Starten
 
-**一般ユーザー向け**
+**Für die meisten Nutzer**
 
-GitHub Releases から最新の `.zip` ファイルをダウンロードし、解凍後に `PromptGenerator.exe` を実行してください。
+Laden Sie das aktuelle `.zip`-Paket von der GitHub-Releases-Seite herunter, entpacken Sie es und starten Sie `PromptGenerator.exe`.
 
-**開発者向け**
+**Für Entwickler**
 
-Python 3.8 以上が必要です。
+Python 3.8+ erforderlich.
 
 ```bash
 pip install PyQt6
 python main.py
 ```
 
-### ステップ 2: タグ選択と重み調整
+### Schritt 2: Tags auswählen und Gewichte anpassen
 
-* デフォルトのライブラリが付属しています。
-* `File → Load Library...` から独自の JSON ライブラリを読み込めます。
-* 必要なタグをクリックして選択します。
-* ⚙ ボタンから重みを調整できます。
+* Standardbibliothek ist bereits enthalten.
+* Eigene JSON-Bibliotheken können über `File → Load Library...` geladen werden.
+* Tags per Mausklick auswählen.
+* Über das ⚙-Symbol Gewichtungen anpassen.
 
-例:
+Beispiel:
 
 ```text
 (masterpiece:1.3)
 ```
 
-* 一時的な追加プロンプトは「Custom Prompts」に入力できます。
+* Zusätzliche Begriffe können im Feld „Custom Prompts“ eingetragen werden.
 
-### ステップ 3: インスピレーションモード
+### Schritt 3: Inspirationsmodus
 
-アイデアが欲しいときは:
+Klicken Sie auf:
 
 🎲 Global Random
 
-をクリックしてください。
+Eine zufällige Kombination wird in einer separaten Inspirationsbox erzeugt, ohne Ihre aktuelle Auswahl zu verändern.
 
-現在の選択内容を変更せずに、別枠のインスピレーションボックスへランダムな組み合わせを生成します。
-
-気に入った場合は:
+Gefällt Ihnen das Ergebnis, klicken Sie auf:
 
 ✨ Apply Inspiration
 
-をクリックして適用できます。
+um es zu übernehmen.
 
-### ステップ 4: プロンプト生成
+### Schritt 4: Prompt generieren
+
+Klicken Sie auf:
 
 🚀 Generate Prompt
 
-をクリックすると、
+Anschließend werden angezeigt:
 
-* 確認用のローカライズ表示
-* AI向け英語プロンプト
+* Eine Vorschau in Ihrer Sprache
+* Der englische Prompt für die KI
 
-が表示されます。
+Mit:
 
 📋 Copy English
 
-をクリックすると、そのままコピーできます。
+können Sie den Prompt direkt kopieren.
 
-## 💡 上級者向けヒント
+## 💡 Tipps
 
-### ビジュアルライブラリエディタ
+### Visueller Bibliothekseditor
+
+Mit:
 
 ```text
 Ctrl + E
 ```
 
-でエディタを開けます。
+öffnen Sie den visuellen Editor.
 
-JSON を直接編集することなく、カテゴリやプロンプトをGUI上で管理できます。
+Bibliotheken, Kategorien und Prompts lassen sich komfortabel bearbeiten, ohne JSON-Dateien manuell anzupassen.
 
-### カスタマイズ
+### Anpassung
 
-対応機能:
+Unterstützt:
 
-* 多言語UI
-* 即時言語切り替え
-* 3種類のテーマ
+* Mehrsprachige Benutzeroberfläche
+* Sofortigen Sprachwechsel
+* Drei integrierte Designs:
 
   * Dark Cyber
   * Light Minimal
