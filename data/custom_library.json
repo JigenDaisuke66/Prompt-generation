@@ -1,182 +1,206 @@
 {
-  "project_name": "General Nature Landscape Lexicon",
+  "project_name": "Fantasy Character Design Lexicon",
   "module_groups": [
     {
-      "module_name": "Weather and Lighting",
+      "module_name": "Profession and Identity",
       "is_open": true,
       "sub_modules": [
         {
-          "sub_module_name": "Time of Day",
+          "sub_module_name": "Fantasy Races",
           "tags": {
-            "blue hour": "blue hour",
-            "dawn": "dawn",
-            "daybreak": "daybreak",
-            "dusk": "dusk",
-            "early morning": "early morning",
-            "golden hour": "golden hour",
-            "high noon": "high noon",
-            "lazy afternoon": "lazy afternoon",
-            "mid-morning": "mid-morning",
-            "midnight": "midnight",
-            "midnight sun": "midnight sun",
-            "nightfall": "nightfall",
-            "starry night": "starry night",
-            "sunrise": "sunrise",
-            "sunset": "sunset"
+            "agile halfling": "agile halfling",
+            "centaur explorer": "centaur explorer",
+            "cheerful forest gnome": "cheerful forest gnome",
+            "clever woodland creature": "clever woodland creature",
+            "deep sea merfolk": "deep sea merfolk",
+            "doppelganger": "doppelganger",
+            "dryad": "dryad",
+            "dwarven artisan": "dwarven artisan",
+            "enchanted forest spirit": "enchanted forest spirit",
+            "forest fairy": "forest fairy",
+            "friendly shape-shifter": "friendly shape-shifter",
+            "gentle giant": "gentle giant",
+            "high elf": "high elf",
+            "kind-hearted titan": "kind-hearted titan",
+            "magical stone guardian": "magical stone guardian",
+            "magical tiefling": "magical tiefling",
+            "mysterious dragon-kin": "mysterious dragon-kin",
+            "mystical forest keeper": "mystical forest keeper",
+            "sea traveler": "sea traveler",
+            "strong forest-folk": "strong forest-folk"
           }
         },
         {
-          "sub_module_name": "Meteorological Effects",
+          "sub_module_name": "Classic Roles",
           "tags": {
-            "aurora borealis": "aurora borealis",
-            "beautiful rainbow": "beautiful rainbow",
-            "blizzard": "blizzard",
-            "clear sky": "clear sky",
-            "cloudy": "cloudy",
-            "crepuscular rays": "crepuscular rays",
-            "drizzle": "drizzle",
-            "hailstorm": "hailstorm",
-            "heavy rain": "heavy rain",
-            "heavy snow": "heavy snow",
-            "lightning strikes": "lightning strikes",
-            "massive swirling tornado": "massive swirling tornado",
-            "morning fog": "morning fog",
-            "morning frost": "morning frost",
-            "sandstorm": "sandstorm",
-            "thunderstorm": "thunderstorm"
+            "adventurous explorer": "adventurous explorer",
+            "artificer": "artificer",
+            "bard with a lute": "bard with a lute",
+            "beastmaster": "beastmaster",
+            "elemental mage": "elemental mage",
+            "energetic warrior": "energetic warrior",
+            "focused monk": "focused monk",
+            "forest ranger": "forest ranger",
+            "herbologist": "herbologist",
+            "holy healer": "holy healer",
+            "illusionist": "illusionist",
+            "inventive alchemist": "inventive alchemist",
+            "mysterious scout": "mysterious scout",
+            "nature druid": "nature druid",
+            "nature keeper": "nature keeper",
+            "noble paladin": "noble paladin",
+            "spellblade": "spellblade",
+            "summoner of friendly beasts": "summoner of friendly beasts",
+            "time-traveling scholar": "time-traveling scholar",
+            "wise judge": "wise judge"
           }
         }
       ]
     },
     {
-      "module_name": "Terrain and Ecology",
+      "module_name": "Appearance and Gear",
       "is_open": true,
       "sub_modules": [
         {
-          "sub_module_name": "Natural Landforms",
+          "sub_module_name": "Clothing and Accessories",
           "tags": {
-            "cold polar tundra": "cold polar tundra",
-            "deep canyon": "deep canyon",
-            "desolate gobi": "desolate gobi",
-            "endless prairie": "endless prairie",
-            "erupting active volcano": "erupting active volcano",
-            "karst landscape": "karst landscape",
-            "lush forest": "lush forest",
-            "magnificent glacier": "magnificent glacier",
-            "massive basin": "massive basin",
-            "mysterious stalactite cave": "mysterious stalactite cave",
-            "rolling hills": "rolling hills",
-            "rolling mountains": "rolling mountains",
-            "salt flat": "salt flat",
-            "steep cliffs": "steep cliffs",
-            "vast desert": "vast desert"
+            "bird-inspired masquerade mask": "bird-inspired masquerade mask",
+            "comfortable linen cloak": "comfortable linen cloak",
+            "durable plate gauntlets": "durable plate gauntlets",
+            "elegant lace dress": "elegant lace dress",
+            "feathered headdress": "feathered headdress",
+            "flowing silk robes": "flowing silk robes",
+            "fur-lined mantle": "fur-lined mantle",
+            "hooded mantle": "hooded mantle",
+            "jeweled crown": "jeweled crown",
+            "leather adventure gear": "leather adventure gear",
+            "leather explorer coat": "leather explorer coat",
+            "light mithril chainmail": "light mithril chainmail",
+            "mysterious ceremonial mask": "mysterious ceremonial mask",
+            "ornate noble armor": "ornate noble armor",
+            "simple tunic": "tunic",
+            "sturdy traveling boots": "sturdy traveling boots",
+            "stylish corset": "stylish corset",
+            "traditional decorative armor": "traditional decorative armor"
           }
         },
         {
-          "sub_module_name": "Water Landscapes",
+          "sub_module_name": "Equipment and Items",
           "tags": {
-            "colorful coral reef": "colorful coral reef",
-            "crystal clear lake": "crystal clear lake",
-            "deep dark ocean": "deep dark ocean",
-            "desert oasis pool": "desert oasis pool",
-            "erupting geyser": "erupting geyser",
-            "foggy swampy wetland": "foggy swampy wetland",
-            "frozen lake": "frozen lake",
-            "hidden underground river": "hidden underground river",
-            "magnificent waterfall": "magnificent waterfall",
-            "peaceful beach": "peaceful beach",
-            "rough sea": "rough sea",
-            "rushing river": "rushing river",
-            "tidal flat": "tidal flat",
-            "tranquil bay": "tranquil bay",
-            "winding forest stream": "winding forest stream"
+            "ancient parchment scrolls": "ancient parchm",
+            "ceremonial greatsword": "ceremonial greatsword",
+            "curved ceremonial blade": "curved ceremonial blade",
+            "decorative hand wraps": "decorative hand wraps",
+            "decorative throwing axes": "decorative throwing axes",
+            "elegant decorative daggers": "elegant decorative daggers",
+            "elegant magic wand": "elegant magic wand",
+            "enchanted glowing ring": "enchanted glowing ring",
+            "enchanted runic shield": "enchanted runic shield",
+            "floating spellbook": "floating spellbook",
+            "glowing crystal staff": "glowing crystal staff",
+            "glowing magic amulet": "glowing magic amulet",
+            "heavy decorative halberd": "heavy decorative halberd",
+            "intricate mechanical crossbow": "intricate mechanical crossbow",
+            "magic potion vials on belt": "magic potion vials on belt",
+            "ornamental mace": "ornamental mace",
+            "ornate belt": "ornate belt",
+            "quiver with glowing arrows": "quiver with glowing arrows",
+            "star-shaped lantern": "star-shaped lantern",
+            "tarot cards": "tarot cards"
           }
         }
       ]
     },
     {
-      "module_name": "Flora and Fauna",
+      "module_name": "Facial and Physical Traits",
       "is_open": true,
       "sub_modules": [
         {
-          "sub_module_name": "Botanical Elements",
+          "sub_module_name": "Facial Details",
           "tags": {
-            "ancient banyan trees": "ancient banyan trees",
-            "blooming cherry blossoms": "blooming cherry blossoms",
-            "colorful wildflower meadows": "colorful wildflower meadows",
-            "glowing bioluminescent mushrooms": "glowing bioluminescent mushrooms",
-            "sprawling ivy vines": "sprawling ivy vines",
-            "swaying bamboo forest": "swaying bamboo forest",
-            "towering redwood trees": "towering redwood trees",
-            "vibrant mossy rocks": "vibrant mossy rocks"
+            "blindfold": "blindfold",
+            "bright eyes": "bright eyes",
+            "bright friendly smile": "bright friendly smile",
+            "faint artistic markings": "faint artistic markings",
+            "glowing eyes": "glowing eyes",
+            "glowing patterns": "glowing patterns",
+            "glowing runic tattoos": "glowing runic tattoos",
+            "heterochromia eyes": "heterochromia eyes",
+            "intense gaze": "intense gaze",
+            "kind face": "kind face",
+            "magical horns": "magical horns",
+            "mechanical magic eye": "mechanical magic eye",
+            "pointy elf ears": "pointy elf ears",
+            "shimmering scales": "shimmering scales",
+            "shining golden hair": "shining golden hair",
+            "third eye on forehead": "third eye on forehead",
+            "tribal patterns": "tribal patterns"
           }
         },
         {
-          "sub_module_name": "Wildlife Encounters",
+          "sub_module_name": "Physical Traits",
           "tags": {
-            "colorful tropical butterflies": "colorful tropical butterflies",
-            "flocks of migrating birds": "flocks of migrating birds",
-            "glowing fireflies in the dark": "glowing fireflies in the dark",
-            "grazing herds of deer": "grazing herds of deer",
-            "playful leaping dolphins": "playful leaping dolphins",
-            "silver fish swimming in streams": "silver fish swimming in streams",
-            "soaring majestic eagles": "soaring majestic eagles"
+            "bright glowing hair": "bright glowing hair",
+            "covered in floral vines": "covered in floral vines",
+            "crystal growths": "crystal growths",
+            "floating runic circles": "floating runic circles",
+            "fluffy tail": "fluffy tail",
+            "gills": "gills",
+            "glowing metallic skin": "glowing metallic skin",
+            "holy halo": "holy halo",
+            "magical prosthetic limb": "magical prosthetic limb",
+            "majestic wings": "majestic wings",
+            "multiple arms": "multiple arms",
+            "shimmering skin": "shimmering skin",
+            "surrounded by sparkling mist": "surrounded by sparkling mist",
+            "translucent ethereal body": "translucent ethereal body",
+            "whimsical floating accessories": "whimsical floating accessories"
           }
         }
       ]
     },
     {
-      "module_name": "Seasonal Atmospheres",
+      "module_name": "Action and Pose",
       "is_open": true,
       "sub_modules": [
         {
-          "sub_module_name": "Spring and Summer",
+          "sub_module_name": "Dynamic Poses",
           "tags": {
-            "fresh spring blooms": "fresh spring blooms",
-            "gentle summer showers": "gentle summer showers",
-            "melting spring snow": "melting spring snow",
-            "sun-drenched forest canopies": "sun-drenched forest canopies",
-            "vibrant green grass": "vibrant green grass",
-            "warm summer breeze": "warm summer breeze"
+            "agile movement": "agile movement",
+            "aiming a bow": "aiming a bow",
+            "chanting a spell": "chanting a spell",
+            "graceful dodging": "graceful dodging",
+            "graceful posture": "graceful posture",
+            "guiding a magical beam": "guiding a magical beam",
+            "interacting with a familiar": "interacting with a familiar",
+            "kneeling to cast healing magic": "kneeling to cast healing magic",
+            "leaping from above": "leaping from above",
+            "practicing sword forms": "practicing sword forms",
+            "preparing a potion": "preparing a potion",
+            "raising shield to protect": "raising shield to protect",
+            "spinning gracefully": "performing a spinning move",
+            "stealthy movement": "stealthy movement",
+            "swinging staff to cast light": "swinging staff to cast light"
           }
         },
         {
-          "sub_module_name": "Autumn and Winter",
+          "sub_module_name": "Daily Life and Stillness",
           "tags": {
-            "blanket of pristine winter snow": "blanket of pristine winter snow",
-            "crisp autumn morning": "crisp autumn morning",
-            "falling autumn leaves": "falling autumn leaves",
-            "frozen winter branches": "frozen winter branches",
-            "golden maple trees": "golden maple trees",
-            "peaceful snowy silence": "peaceful snowy silence"
-          }
-        }
-      ]
-    },
-    {
-      "module_name": "Celestial and Cosmic",
-      "is_open": true,
-      "sub_modules": [
-        {
-          "sub_module_name": "Night Sky Wonders",
-          "tags": {
-            "bright distant planets": "bright distant planets",
-            "glowing full moon": "glowing full moon",
-            "milky way galaxy": "milky way galaxy",
-            "passing comets": "passing comets",
-            "passing shooting stars": "passing shooting stars",
-            "silver crescent moon": "silver crescent moon"
-          }
-        },
-        {
-          "sub_module_name": "Atmospheric Phenomena",
-          "tags": {
-            "glowing sea bioluminescence": "glowing sea bioluminescence",
-            "glowing sun halos": "glowing sun halos",
-            "rare lunar eclipses": "rare lunar eclipses",
-            "shimmering heat mirage": "shimmering heat mirage",
-            "sparkling diamond dust": "sparkling diamond dust",
-            "vivid alpenglow on peaks": "vivid alpenglow on peaks"
+            "bowing gracefully": "bowing gracefully",
+            "gazing into a crystal ball": "gazing into a crystal ball",
+            "holding a lantern": "holding a lantern",
+            "levitating in mid-air meditating": "levitating in mid-air meditating",
+            "maintaining a weapon": "maintaining a weapon",
+            "petting a magical familiar": "petting a magical familiar",
+            "polishing gear": "polishing gear",
+            "reading an ancient grimoire": "reading an ancient grimoire",
+            "relaxing": "relaxing",
+            "resting in a cozy corner": "resting in a cozy corner",
+            "shuffling a deck of cards": "shuffling a deck of cards",
+            "sitting cross-legged": "sitting cross-legged",
+            "sitting on a throne": "sitting on a throne",
+            "warming hands by the campfire": "warming hands by the campfire",
+            "writing on parchment with a quill": "writing on parchment with a quill"
           }
         }
       ]
