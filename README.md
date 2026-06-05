@@ -5,6 +5,21 @@
 <img width="1146" height="803" alt="image" src="https://github.com/user-attachments/assets/0c20b248-445a-4c0b-a27c-f322af01c143" />
 <img width="1186" height="819" alt="动画" src="https://github.com/user-attachments/assets/f15d4bf4-ff56-4e63-8b3b-eb14ff3cee9c" />
 
+# Prompt-generation
+
+🌍 Documentation
+
+| Language | Link |
+|-----------|------|
+| 🇺🇸 English | [README](README.md) |
+| 🇨🇳 简体中文 | [README_CN.md](README_CN.md) |
+| 🇹🇼 繁體中文 | [README_TW.md](README_TW.md) |
+| 🇩🇪 Deutsch | [README_DE.md](README_DE.md) |
+| 🇯🇵 日本語 | [README_JP.md](README_JP.md) |
+| 🇷🇺 Русский | [README_RU.md](README_RU.md) |
+
+
+
 # Prompt-generation 🎨 Quick Start Guide
 
 Prompt-generation is a lightweight desktop tool designed for AI image generation workflows (Stable Diffusion, Midjourney, FLUX, and more).
