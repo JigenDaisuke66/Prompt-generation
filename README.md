@@ -5,467 +5,108 @@
 <img width="1146" height="803" alt="image" src="https://github.com/user-attachments/assets/0c20b248-445a-4c0b-a27c-f322af01c143" />
 <img width="1186" height="819" alt="动画" src="https://github.com/user-attachments/assets/f15d4bf4-ff56-4e63-8b3b-eb14ff3cee9c" />
 
-# Prompt-generation 🎨
+# Prompt-generation 🎨 Quick Start Guide
 
-**Tired of managing your AI prompts (Stable Diffusion, Midjourney) in messy text files or Excel sheets?** Prompt-generation is a lightweight, portable desktop tool that turns prompt management into a simple, visual "click-and-play" experience. No coding, no complicated setup, just a clean UI to organize your ideas.
+Prompt-generation is a lightweight desktop tool designed for AI image generation workflows (Stable Diffusion, Midjourney, FLUX, and more).
 
-### 🚀 Quick Start (No Installation Required)
+Instead of managing prompts in messy text files or spreadsheets, it provides an intuitive point-and-click interface for organizing, editing, and generating prompts efficiently—without coding.
 
-1. **Download & Run:** Grab the latest `.zip` file from the [Releases](https://github.com/JigenDaisuke66/Prompt-generation/releases/latest) page. Extract it, and double-click `PromptGenerator.exe`.
-2. **Click to Build:** Browse the categories and simply click tags to add them to your prompt. 
-   *(Need more weight? Click the `⚙` icon next to a tag to easily adjust it to `(tag:1.2)`).*
-3. **Type Custom Ideas:** Have a temporary idea? Type it directly into the "Custom Prompts" text box at the bottom.
-4. **Copy & Draw:** Click **Generate Prompt**, and your clean English prompt is instantly copied and ready to be pasted into your AI generator!
+## 🚀 Getting Started
 
-> **💡 Pro Tip (Make it your own!):** > Press `Ctrl+E` to open the **Visual Library Editor**. You can easily add your own categories and favorite tags in a clean table format—absolutely no text file or JSON editing required!
+### Step 1: Download & Run
 
+**For most users (recommended)**
 
-🚀 **A data-driven, highly modular desktop application for managing and generating AI prompts.**
+Download the latest `.zip` package from the GitHub Releases page, extract it, and launch `PromptGenerator.exe`.
 
-Built with Python and PyQt6, Prompt-generation provides an intuitive and efficient way to manage, randomize, customize, and generate prompts for AI image generation tools such as Stable Diffusion, Midjourney, FLUX, and more.
+**For developers**
 
-The project follows a strict **Separation of Concerns (SoC)** architecture, fully decoupling data parsing, UI rendering, configuration management, and business logic for maintainability and extensibility.
-
----
-
-## 📸 Overview
-
-Prompt-generation is designed for creators who frequently work with AI-generated content and need a powerful prompt management system.
-
-Features include:
-
-* Dynamic JSON-driven prompt libraries
-* Smart random prompt generation
-* Multi-language support
-* Theme switching
-* Prompt weight adjustment
-* One-click prompt copying
-* Inspiration workflow without destroying current selections
-
----
-
-## ✨ Features
-
-### 📂 Data-Driven Dynamic UI
-
-No hardcoded categories or tags.
-
-Simply edit your JSON library files and the application will automatically generate:
-
-* Module groups
-* Subcategories
-* Tag buttons
-* Dynamic layouts
-
-without any code modifications.
-
----
-
-### 🌊 Responsive Flow Layout
-
-Custom Flow Layout implementation that automatically wraps tag buttons according to window size.
-
-Benefits:
-
-* Perfect scaling on different resolutions
-* Better usability on small screens
-* Smooth responsive experience
-
----
-
-### ⚙️ Advanced Weight Adjustment
-
-Each tag contains an integrated weight editor.
-
-Click the ⚙ button to:
-
-* Adjust weights precisely
-* Input decimal values manually
-* Modify prompt strength in real time
-
-Example:
-
-```text
-(lush forest:1.2)
-(masterpiece:1.4)
-```
-
----
-
-### 🎲 Smart Random Generation
-
-Supports two independent randomization modes:
-
-#### Module Random
-
-Randomly select tags within a single category.
-
-#### Global Random
-
-Generate a complete prompt combination from all expanded modules.
-
-The algorithm intelligently avoids conflicting selections whenever possible.
-
-Example:
-
-```text
-✓ sunrise
-✗ sunrise + midnight
-```
-
----
-
-### 💡 Non-Destructive Inspiration Workflow
-
-Traditional random generation usually destroys your current selection.
-
-Prompt-generation introduces an Inspiration Mode:
-
-1. Click **🎲 Global Random**
-2. Generate a temporary prompt draft
-3. Review the generated result
-4. Click **✨ Apply Inspiration** if satisfied
-
-Your current work remains untouched until explicitly applied.
-
----
-
-### 🌐 Multi-Language Support
-
-Built-in internationalization (i18n).
-
-Switch languages instantly without restarting:
-
-* 🇺🇸 English
-* 🇨🇳 Simplified Chinese
-* 🇯🇵 Japanese
-
-All menus, buttons, and interface text update dynamically.
-
----
-
-### 🎨 Dynamic Theme Engine
-
-Multiple built-in themes are available:
-
-| Theme          | Description                    |
-| -------------- | ------------------------------ |
-| Dark Cyber     | Modern dark cyberpunk style    |
-| Light Minimal  | Clean and lightweight          |
-| Dracula Purple | Popular purple developer theme |
-
-Themes can be switched instantly through the menu bar.
-
----
-
-### 📋 Dual-Column Prompt Output
-
-Generated prompts are displayed in two synchronized columns:
-
-| Column         | Description                      |
-| -------------- | -------------------------------- |
-| Native Preview | Human-readable localized content |
-| English Prompt | Clean AI-ready prompt            |
-
-Perfect for reviewing before generation.
-
----
-
-### 📌 One-Click Copy
-
-Copy the generated English prompt directly to your clipboard.
-
-Features:
-
-* Instant feedback
-* Status bar notification
-* Ready for Stable Diffusion, Midjourney, FLUX, ComfyUI, Forge, WebUI, etc.
-
----
-
-## 🛠️ Installation
-
-### Requirements
-
-* Python 3.8+
-* PyQt6
-
----
-
-### Clone Repository
-
-```bash
-git clone https://github.com/YOUR_USERNAME/Prompt-generation.git
-cd Prompt-generation
-```
-
----
-
-### Install Dependencies
+Requires Python 3.8+.
 
 ```bash
 pip install PyQt6
-```
-
----
-
-### Run
-
-```bash
 python main.py
 ```
 
----
+### Step 2: Select Tags & Adjust Weights
 
-## 🚀 Usage Guide
+**Load a library**
 
-### 1. Load a Prompt Library
+A default prompt library is included. You can also load your own JSON library through:
 
-The application loads:
+`File → Load Library...`
 
-```text
-example_landscape.json
-```
+**Select tags**
 
-by default.
+Browse categories and click any tags you want to include in your prompt.
 
-To load a custom library:
+**Adjust weights**
 
-```text
-File → Load Library...
-```
-
-or
-
-```text
-Ctrl + O
-```
-
-The interface will rebuild automatically.
-
----
-
-### 2. Select Prompt Tags
-
-Browse categories and click tags to activate them.
-
-Selected tags are highlighted automatically.
-
----
-
-### 3. Adjust Weights
-
-Click:
-
-```text
-⚙
-```
-
-next to any tag.
-
-Examples:
-
-```text
-(masterpiece:1.3)
-(high quality:1.2)
-```
-
----
-
-### 4. Generate Inspiration
-
-Click:
-
-```text
-🎲 Global Random
-```
-
-A temporary prompt combination will appear in the Inspiration Box.
-
-Current selections remain unchanged.
-
-If satisfied:
-
-```text
-✨ Apply Inspiration
-```
-
-to replace current selections.
-
----
-
-### 5. Generate Prompt
-
-Click:
-
-```text
-🚀 Generate Prompt
-```
-
-The output panel updates immediately.
-
----
-
-### 6. Copy Prompt
-
-Click:
-
-```text
-📋 Copy English
-```
-
-The prompt is copied directly to your clipboard.
-
----
-
-### 7. Personalize Your Workspace
-
-#### Change Language
-
-```text
-Settings → Language
-```
-
-Available:
-
-* English
-* 简体中文
-* 日本語
-
-#### Change Theme
-
-```text
-Theme
-```
-
-Available:
-
-* Dark Cyber
-* Light Minimal
-* Dracula Purple
-
----
-
-## 🏗️ Project Structure
-
-```text
-Prompt-generation/
-├── main.py
-│
-├── ui/
-│   ├── main_window.py
-│   ├── flow_layout.py
-│   └── components.py
-│
-├── core/
-│   ├── parser.py
-│   └── config_manager.py
-│
-├── data/
-│   └── example_landscape.json
-│
-└── assets/
-    ├── i18n_en.json
-    ├── i18n_zh.json
-    ├── i18n_ja.json
-    ├── theme_dark.qss
-    ├── theme_light.qss
-    └── theme_dracula.qss
-```
-
----
-
-## 📝 Custom Library Format
+Click the ⚙ icon next to a tag to quickly adjust its weight.
 
 Example:
 
-```json
-{
-  "project_name": "My Custom Library",
-  "module_groups": [
-    {
-      "module_name": "Lighting & Time",
-      "is_open": true,
-      "sub_modules": [
-        {
-          "sub_module_name": "Time of Day",
-          "tags": {
-            "Dawn": "dawn",
-            "Midnight": "midnight"
-          }
-        }
-      ]
-    }
-  ]
-}
+```text
+(masterpiece:1.3)
 ```
 
----
+**Custom prompts**
 
-## ⚖️ License
+Use the "Custom Prompts" field to add temporary ideas or modifiers.
 
-This project is licensed under:
+### Step 3: Inspiration Mode
 
-### CC BY-NC 4.0
+When you're out of ideas, click:
 
-Creative Commons Attribution-NonCommercial 4.0 International
+🎲 Global Random
 
-See the LICENSE file for complete legal details.
+The application generates a random combination inside a separate Inspiration Box without affecting your current selections.
 
-### ✅ You May
+If you like the result, click:
 
-* Share the project
-* Modify the source code
-* Create derivative works
-* Use for personal learning
-* Use for non-commercial purposes
+✨ Apply Inspiration
 
-### ❌ You May Not
+to instantly replace the current selection.
 
-* Sell this software
-* Bundle it into commercial products
-* Use it for commercial monetization
-* Redistribute commercially modified versions
+### Step 4: Generate & Copy
 
-### 📝 Attribution Required
+Click:
 
-You must:
+🚀 Generate Prompt
 
-* Credit the original author
-* Include a link to this repository
-* Clearly indicate modifications
+The application displays:
 
----
+* A localized preview for easy review
+* A clean English prompt for AI generation
 
-## ⚠️ Disclaimer
+Then click:
 
-### As-Is Basis
+📋 Copy English
 
-This software is provided "as is" without warranties of any kind.
+and paste it directly into your favorite AI image generator.
 
-The author is not responsible for:
+## 💡 Advanced Tips
 
-* Data loss
-* Compatibility issues
-* Stability problems
-* Unexpected behavior
+### Visual Library Editor
 
----
+Press:
 
-### Content Responsibility
+```text
+Ctrl + E
+```
 
-Users are solely responsible for:
+to open the Visual Library Editor.
 
-* Generated prompts
-* AI-generated content
-* Copyright compliance
-* Ethical use
-* Legal consequences
+Create categories, organize prompts, and edit libraries through a spreadsheet-like interface instead of manually editing JSON files.
 
----
+### Personalization
 
-### Legal Compliance
+The application supports:
 
-Users must comply with all applicable laws and regulations.
+* Multiple UI languages
+* Instant language switching
+* Three built-in themes:
 
-The author assumes no liability for damages or disputes arising from the use or misuse of this software.
+  * Dark Cyber
+  * Light Minimal
+  * Dracula Purple
